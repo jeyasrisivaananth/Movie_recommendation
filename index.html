@@ -1,0 +1,1119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Tamil Movie Recommender & Similarity Engine</title>
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-main: #030712;
+    --bg-card: rgba(17, 24, 39, 0.6);
+    --border-card: rgba(255, 255, 255, 0.06);
+    --text-primary: #f3f4f6;
+    --text-secondary: #9ca3af;
+    --accent: #06b6d4; /* cyan */
+    --accent-hover: #22d3ee;
+    --favorite: #ec4899; /* pink */
+    --favorite-hover: #f472b6;
+    --glass-highlight: rgba(255, 255, 255, 0.02);
+    --shadow-glow: rgba(6, 182, 212, 0.15);
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: radial-gradient(circle at 50% 0%, #0e1e38 0%, #030712 80%);
+    color: var(--text-primary);
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+    overflow-x: hidden;
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #030712;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+  }
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 20px;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .logo-badge {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--accent), #3b82f6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 22px;
+    color: #030712;
+    box-shadow: 0 0 20px var(--shadow-glow);
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #fff, #93c5fd, var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-top: 4px;
+  }
+
+  /* Stats and Quick Switch tabs */
+  .header-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .tab-btn {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    color: var(--text-secondary);
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .tab-btn:hover {
+    color: var(--text-primary);
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+
+  .tab-btn.active {
+    background: linear-gradient(135deg, rgba(6, 182, 212, 0.2), rgba(59, 130, 246, 0.2));
+    color: var(--accent);
+    border-color: rgba(6, 182, 212, 0.4);
+  }
+
+  /* Controls Panel */
+  .controls-panel {
+    background: var(--bg-card);
+    border: 1px solid var(--border-card);
+    border-radius: 16px;
+    padding: 20px;
+    backdrop-filter: blur(12px);
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .search-wrapper {
+    flex: 2;
+    min-width: 280px;
+    position: relative;
+  }
+
+  .search-wrapper input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 12px 16px;
+    color: var(--text-primary);
+    font-size: 15px;
+    outline: none;
+    transition: all 0.3s;
+  }
+
+  .search-wrapper input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.15);
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  select {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--text-primary);
+    padding: 12px 16px;
+    border-radius: 12px;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    min-width: 180px;
+    transition: all 0.3s;
+  }
+
+  select:focus {
+    border-color: var(--accent);
+  }
+
+  .btn {
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s;
+    font-size: 15px;
+  }
+
+  .btn-primary {
+    background: linear-gradient(135deg, var(--accent), #3b82f6);
+    color: #030712;
+  }
+
+  .btn-primary:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+  }
+
+  .btn-secondary {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-secondary);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-primary);
+  }
+
+  /* Grid Area */
+  .grid-section {
+    position: relative;
+    min-height: 400px;
+  }
+
+  .movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 22px;
+  }
+
+  /* Card Component */
+  .movie-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-card);
+    border-radius: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .movie-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(6, 182, 212, 0.4);
+    box-shadow: 0 10px 25px -5px rgba(3, 7, 18, 0.5), 0 0 15px rgba(6, 182, 212, 0.1);
+  }
+
+  .poster-area {
+    height: 320px;
+    position: relative;
+    overflow: hidden;
+    background: var(--bg-card);
+  }
+
+  .poster-area img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .movie-card:hover .poster-area img {
+    transform: scale(1.08);
+  }
+
+  .poster-area::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    background: linear-gradient(180deg, transparent 0%, rgba(3, 7, 18, 0.85) 100%);
+    pointer-events: none;
+  }
+
+  .poster-fallback {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .poster-initials {
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    opacity: 0.9;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+
+  .poster-year {
+    font-size: 13px;
+    opacity: 0.8;
+    margin-top: 4px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 2px 8px;
+    border-radius: 99px;
+  }
+
+  .card-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px;
+  }
+
+  .card-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--text-primary);
+  }
+
+  .card-director {
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
+
+  .card-director span {
+    color: var(--accent);
+  }
+
+  .genres-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: auto;
+  }
+
+  .genre-badge {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    color: var(--text-secondary);
+    font-weight: 600;
+  }
+
+  /* Floating detail viewer / Modal */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(3, 7, 18, 0.85);
+    backdrop-filter: blur(8px);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+
+  .modal-overlay.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .modal-container {
+    background: rgba(15, 23, 42, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 900px;
+    width: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+    transform: scale(0.95);
+    transition: transform 0.3s;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-overlay.open .modal-container {
+    transform: scale(1);
+  }
+
+  .modal-close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border: none;
+    color: var(--text-secondary);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s;
+    z-index: 10;
+  }
+
+  .modal-close-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-primary);
+  }
+
+  .modal-body {
+    overflow-y: auto;
+    padding: 40px;
+  }
+
+  .movie-detail-header {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+
+  .detail-poster {
+    width: 220px;
+    height: 330px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    flex-shrink: 0;
+  }
+
+  .detail-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .detail-poster .poster-fallback {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .detail-info {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .detail-title {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    line-height: 1.2;
+  }
+
+  .detail-meta {
+    font-size: 15px;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .meta-divider {
+    width: 4px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+  }
+
+  .detail-overview {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 20px;
+  }
+
+  .cast-crew-section {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .crew-item {
+    font-size: 15px;
+    color: var(--text-secondary);
+  }
+
+  .crew-item strong {
+    color: var(--text-primary);
+  }
+
+  .favorite-action-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-primary);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+    align-self: flex-start;
+  }
+
+  .favorite-action-btn.favorited {
+    background: rgba(236, 72, 153, 0.15);
+    border-color: var(--favorite);
+    color: var(--favorite);
+  }
+
+  .favorite-action-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .recommendations-section {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 30px;
+  }
+
+  .recommendations-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+  }
+
+  /* Loader */
+  .loader-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    min-height: 300px;
+  }
+
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgba(6, 182, 212, 0.1);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+
+  /* Empty state */
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-secondary);
+  }
+
+  .empty-state h3 {
+    font-size: 20px;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+
+  footer a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo-area">
+      <div class="logo-badge">T</div>
+      <div>
+        <h1>Tamil Movie Recommender</h1>
+        <p class="subtitle">Search, filter, and discover similar movies instantly.</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button id="showAllBtn" class="tab-btn active">All Movies</button>
+      <button id="showFavsBtn" class="tab-btn">Favorites</button>
+    </div>
+  </header>
+
+  <!-- Filter & Controls -->
+  <div class="controls-panel">
+    <div class="search-wrapper">
+      <input id="searchInput" placeholder="Search by title, director, cast or keywords..." aria-label="Search movies" />
+    </div>
+
+    <select id="genreFilter" aria-label="Filter by genre">
+      <option value="">All Genres</option>
+    </select>
+
+    <button id="resetFilters" class="btn btn-secondary">Reset</button>
+  </div>
+
+  <!-- Main section -->
+  <section class="grid-section">
+    <div id="loader" class="loader-wrapper">
+      <div class="spinner"></div>
+      <p>Loading Tamil movies dataset...</p>
+    </div>
+    <div id="moviesGrid" class="movies-grid" style="display: none;"></div>
+    <div id="emptyState" class="empty-state" style="display: none;">
+      <h3>No movies match your filters</h3>
+      <p>Try resetting the search terms or choosing another genre.</p>
+    </div>
+  </section>
+
+  <!-- Interactive Details Modal -->
+  <div id="detailModal" class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <button id="closeModal" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-body">
+        <div class="movie-detail-header">
+          <div id="detailPoster" class="detail-poster">
+          </div>
+          <div class="detail-info">
+            <h2 id="detailTitle" class="detail-title"></h2>
+            <div id="detailMeta" class="detail-meta"></div>
+            <p id="detailOverview" class="detail-overview"></p>
+            <div class="cast-crew-section">
+              <div class="crew-item">Director: <strong id="detailDirector"></strong></div>
+              <div class="crew-item">Cast: <strong id="detailCast"></strong></div>
+            </div>
+            <button id="favoriteBtn" class="favorite-action-btn">
+              <span class="heart-icon">&#9825;</span> Add to Favorites
+            </button>
+          </div>
+        </div>
+
+        <div class="recommendations-section">
+          <h3>Similar Tamil Movies You Might Like</h3>
+          <div id="recommendationsGrid" class="movies-grid"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Made with &hearts; &bull; Serving dynamically from local CSV file.
+  </footer>
+</div>
+
+<script>
+  // Application State
+  let allMovies = [];
+  let posterMap = {}; // index -> poster filename
+  let currentFilterState = {
+    search: '',
+    genre: '',
+    tab: 'all' // 'all' or 'favorites'
+  };
+  const FAV_KEY = 'tamil_movies_favorites_v1';
+
+  // DOM Elements
+  const searchInput = document.getElementById('searchInput');
+  const genreFilter = document.getElementById('genreFilter');
+  const resetFilters = document.getElementById('resetFilters');
+  const showAllBtn = document.getElementById('showAllBtn');
+  const showFavsBtn = document.getElementById('showFavsBtn');
+  const loader = document.getElementById('loader');
+  const moviesGrid = document.getElementById('moviesGrid');
+  const emptyState = document.getElementById('emptyState');
+
+  // Modal Elements
+  const detailModal = document.getElementById('detailModal');
+  const closeModal = document.getElementById('closeModal');
+  const detailPoster = document.getElementById('detailPoster');
+  const detailTitle = document.getElementById('detailTitle');
+  const detailMeta = document.getElementById('detailMeta');
+  const detailOverview = document.getElementById('detailOverview');
+  const detailDirector = document.getElementById('detailDirector');
+  const detailCast = document.getElementById('detailCast');
+  const favoriteBtn = document.getElementById('favoriteBtn');
+  const recommendationsGrid = document.getElementById('recommendationsGrid');
+
+  let activeMovieId = null;
+
+  // Initialize
+  document.addEventListener('DOMContentLoaded', async () => {
+    await loadPosterMap();
+    fetchMovies();
+    setupEventListeners();
+  });
+
+  // Load poster mapping
+  async function loadPosterMap() {
+    try {
+      const resp = await fetch('poster_map.json');
+      posterMap = await resp.json();
+      console.log(`Loaded poster map: ${Object.keys(posterMap).length} entries`);
+    } catch (e) {
+      console.warn('poster_map.json not found, using fallback gradients');
+      posterMap = {};
+    }
+  }
+
+  // Get poster path for a movie
+  function getPosterPath(movieId) {
+    const filename = posterMap[String(movieId)];
+    if (filename) return filename; // Return full URL directly
+    return null;
+  }
+
+  // Setup Event Listeners
+  function setupEventListeners() {
+    searchInput.addEventListener('input', debounce(handleSearch, 200));
+    genreFilter.addEventListener('change', handleGenreChange);
+    resetFilters.addEventListener('click', handleReset);
+    showAllBtn.addEventListener('click', () => switchTab('all'));
+    showFavsBtn.addEventListener('click', () => switchTab('favorites'));
+    closeModal.addEventListener('click', closeMovieModal);
+    detailModal.addEventListener('click', (e) => {
+      if (e.target === detailModal) closeMovieModal();
+    });
+    favoriteBtn.addEventListener('click', toggleFavorite);
+    
+    // Close modal on escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeMovieModal();
+    });
+  }
+
+  // Fetch and Parse CSV
+  async function fetchMovies() {
+    try {
+      const response = await fetch('Movies(Tamil)2015-2025.csv');
+      const csvData = await response.text();
+      const parsedData = parseCSV(csvData);
+      
+      // Map rows to objects
+      allMovies = parsedData.slice(1).map(row => {
+        const title = row[1] || '';
+        // Extract year if specified in parentheses in title (e.g. "Aambala (U)" or similar)
+        // Usually, Tamil movies CSV contains year or standard name. We can map defaults
+        const year = 2015 + Math.floor(Math.random() * 10); // fallback if not detected
+        return {
+          id: parseInt(row[0]),
+          title: title,
+          genre: row[2] || 'Drama',
+          genres: (row[2] || '').split(/\s+/).filter(Boolean),
+          overview: row[3] || 'No overview available for this movie.',
+          director: row[4] || 'Unknown Director',
+          cast: (row[5] || '').split(',').map(c => c.trim()).filter(Boolean),
+          tags: (row[2] + ' ' + row[3] + ' ' + row[4] + ' ' + row[5]).toLowerCase()
+        };
+      }).filter(m => !isNaN(m.id));
+
+      populateGenres();
+      render();
+      loader.style.display = 'none';
+      moviesGrid.style.display = 'grid';
+    } catch (error) {
+      console.error('Failed to fetch/parse Tamil movies dataset:', error);
+      loader.innerHTML = `<p style="color: #ef4444;">Failed to load dataset. Make sure you are serving via HTTP server.</p>`;
+    }
+  }
+
+  // State-machine CSV parser
+  function parseCSV(text) {
+    const lines = [];
+    let row = [""];
+    let inQuotes = false;
+
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      const next = text[i + 1];
+
+      if (c === '"') {
+        if (inQuotes && next === '"') {
+          row[row.length - 1] += '"';
+          i++;
+        } else {
+          inQuotes = !inQuotes;
+        }
+      } else if (c === ',' && !inQuotes) {
+        row.push('');
+      } else if ((c === '\r' || c === '\n') && !inQuotes) {
+        if (c === '\r' && next === '\n') {
+          i++;
+        }
+        lines.push(row);
+        row = [''];
+      } else {
+        row[row.length - 1] += c;
+      }
+    }
+    if (row.length > 1 || row[0] !== '') {
+      lines.push(row);
+    }
+    return lines;
+  }
+
+  // Populate dynamic genre filters
+  function populateGenres() {
+    const genres = new Set();
+    allMovies.forEach(m => {
+      m.genres.forEach(g => genres.add(g));
+    });
+
+    const sortedGenres = Array.from(genres).sort();
+    sortedGenres.forEach(g => {
+      const option = document.createElement('option');
+      option.value = g;
+      option.textContent = g;
+      genreFilter.appendChild(option);
+    });
+  }
+
+  // Helpers: color pair generator based on title hash
+  function getGradientForTitle(title) {
+    let hash = 0;
+    for (let i = 0; i < title.length; i++) {
+      hash = title.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const hue1 = Math.abs(hash % 360);
+    const hue2 = (hue1 + 40) % 360;
+    return `linear-gradient(135deg, hsl(${hue1}, 65%, 22%) 0%, hsl(${hue2}, 75%, 12%) 100%)`;
+  }
+
+  // Favorites Local Storage Helpers
+  function getFavorites() {
+    return JSON.parse(localStorage.getItem(FAV_KEY) || '[]');
+  }
+
+  function isFavorite(id) {
+    return getFavorites().includes(id);
+  }
+
+  function toggleFavorite() {
+    if (activeMovieId === null) return;
+    let favs = getFavorites();
+    if (favs.includes(activeMovieId)) {
+      favs = favs.filter(x => x !== activeMovieId);
+      favoriteBtn.innerHTML = `<span class="heart-icon">&#9825;</span> Add to Favorites`;
+      favoriteBtn.classList.remove('favorited');
+    } else {
+      favs.push(activeMovieId);
+      favoriteBtn.innerHTML = `<span class="heart-icon">&hearts;</span> Favorited`;
+      favoriteBtn.classList.add('favorited');
+    }
+    localStorage.setItem(FAV_KEY, JSON.stringify(favs));
+    render();
+  }
+
+  // Render main layout
+  function render() {
+    const query = currentFilterState.search.toLowerCase();
+    const genre = currentFilterState.genre;
+    const tab = currentFilterState.tab;
+    const favs = getFavorites();
+
+    const filtered = allMovies.filter(m => {
+      // Tab filter
+      if (tab === 'favorites' && !favs.includes(m.id)) return false;
+      // Genre filter
+      if (genre && !m.genres.includes(genre)) return false;
+      // Search filter
+      if (query) {
+        return (
+          m.title.toLowerCase().includes(query) ||
+          m.director.toLowerCase().includes(query) ||
+          m.cast.join(' ').toLowerCase().includes(query) ||
+          m.overview.toLowerCase().includes(query)
+        );
+      }
+      return true;
+    });
+
+    moviesGrid.innerHTML = '';
+    if (filtered.length === 0) {
+      moviesGrid.style.display = 'none';
+      emptyState.style.display = 'block';
+    } else {
+      emptyState.style.display = 'none';
+      moviesGrid.style.display = 'grid';
+
+      filtered.forEach(m => {
+        const card = document.createElement('div');
+        card.className = 'movie-card';
+        card.addEventListener('click', () => openMovieModal(m.id));
+
+        const posterPath = getPosterPath(m.id);
+        const initials = m.title.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase();
+        const grad = getGradientForTitle(m.title);
+
+        let posterHTML;
+        if (posterPath) {
+          posterHTML = `
+            <div class="poster-area">
+              <img src="${posterPath}" alt="${escapeHtml(m.title)}" loading="lazy" 
+                   onerror="this.parentElement.innerHTML='<div class=poster-fallback style=background:${grad}><div class=poster-initials>${initials}</div><div class=poster-year>Tamil</div></div>'" />
+            </div>`;
+        } else {
+          posterHTML = `
+            <div class="poster-area" style="background: ${grad}">
+              <div class="poster-fallback">
+                <div class="poster-initials">${initials}</div>
+                <div class="poster-year">Tamil</div>
+              </div>
+            </div>`;
+        }
+
+        card.innerHTML = `
+          ${posterHTML}
+          <div class="card-content">
+            <h3 class="card-title">${escapeHtml(m.title)}</h3>
+            <div class="card-director">Dir: <span>${escapeHtml(m.director)}</span></div>
+            <div class="genres-container">
+              ${m.genres.map(g => `<span class="genre-badge">${escapeHtml(g)}</span>`).join('')}
+            </div>
+          </div>
+        `;
+        moviesGrid.appendChild(card);
+      });
+    }
+  }
+
+  // Content Similarity Algorithm
+  function tokenize(str) {
+    const set = new Set();
+    const words = str.split(/\W+/);
+    words.forEach(w => {
+      if (w.length > 2) set.add(w);
+    });
+    return set;
+  }
+
+  // Jaccard similarity score
+  function getJaccardSimilarity(setA, setB) {
+    let intersection = 0;
+    setA.forEach(item => {
+      if (setB.has(item)) intersection++;
+    });
+    const unionSize = new Set([...setA, ...setB]).size;
+    return unionSize === 0 ? 0 : intersection / unionSize;
+  }
+
+  function getRecommendations(movieId, limit = 6) {
+    const target = allMovies.find(m => m.id === movieId);
+    if (!target) return [];
+
+    const targetTokens = tokenize(target.tags);
+    const scoredList = allMovies
+      .filter(m => m.id !== movieId)
+      .map(m => {
+        const score = getJaccardSimilarity(targetTokens, tokenize(m.tags));
+        return { movie: m, score: score };
+      })
+      .sort((a, b) => b.score - a.score);
+
+    return scoredList.slice(0, limit).map(item => item.movie);
+  }
+
+  // Detail Modal Actions
+  function openMovieModal(id) {
+    const m = allMovies.find(x => x.id === id);
+    if (!m) return;
+
+    activeMovieId = m.id;
+    
+    // Header Poster
+    const posterPath = getPosterPath(m.id);
+    const initials = m.title.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase();
+    const grad = getGradientForTitle(m.title);
+    
+    if (posterPath) {
+      detailPoster.style.background = 'none';
+      detailPoster.innerHTML = `<img src="${posterPath}" alt="${escapeHtml(m.title)}" style="width:100%;height:100%;object-fit:cover;border-radius:16px;" onerror="this.parentElement.style.background='${grad}';this.parentElement.innerHTML='<div class=poster-fallback><div class=poster-initials>${initials}</div></div>'" />`;
+    } else {
+      detailPoster.style.background = grad;
+      detailPoster.innerHTML = `<div class="poster-fallback"><div class="poster-initials">${initials}</div></div>`;
+    }
+
+    // Metadata
+    detailTitle.textContent = m.title;
+    detailDirector.textContent = m.director;
+    detailCast.textContent = m.cast.join(', ') || 'N/A';
+    detailOverview.textContent = m.overview;
+
+    // Badges
+    detailMeta.innerHTML = m.genres.map(g => `<span class="genre-badge">${escapeHtml(g)}</span>`).join('') + 
+      '<span class="meta-divider"></span><span style="color: var(--accent); font-weight: 600;">Tamil Cinema</span>';
+
+    // Favorites State
+    if (isFavorite(m.id)) {
+      favoriteBtn.innerHTML = `<span class="heart-icon">&hearts;</span> Favorited`;
+      favoriteBtn.classList.add('favorited');
+    } else {
+      favoriteBtn.innerHTML = `<span class="heart-icon">&#9825;</span> Add to Favorites`;
+      favoriteBtn.classList.remove('favorited');
+    }
+
+    // Similar Recommendations
+    const recs = getRecommendations(m.id, 6);
+    recommendationsGrid.innerHTML = '';
+    recs.forEach(r => {
+      const recCard = document.createElement('div');
+      recCard.className = 'movie-card';
+      recCard.addEventListener('click', () => {
+        openMovieModal(r.id);
+      });
+
+      const rPosterPath = getPosterPath(r.id);
+      const rInitials = r.title.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase();
+      const rGrad = getGradientForTitle(r.title);
+
+      let recPosterHTML;
+      if (rPosterPath) {
+        recPosterHTML = `<div class="poster-area" style="height: 180px;"><img src="${rPosterPath}" alt="${escapeHtml(r.title)}" loading="lazy" /></div>`;
+      } else {
+        recPosterHTML = `<div class="poster-area" style="height: 180px; background: ${rGrad};"><div class="poster-fallback"><div class="poster-initials" style="font-size: 20px;">${rInitials}</div></div></div>`;
+      }
+
+      recCard.innerHTML = `
+        ${recPosterHTML}
+        <div class="card-content" style="padding: 10px;">
+          <h4 class="card-title" style="font-size: 14px;">${escapeHtml(r.title)}</h4>
+        </div>
+      `;
+      recommendationsGrid.appendChild(recCard);
+    });
+
+    detailModal.classList.add('open');
+  }
+
+  function closeMovieModal() {
+    detailModal.classList.remove('open');
+    activeMovieId = null;
+  }
+
+  // Filter Actions
+  function handleSearch(e) {
+    currentFilterState.search = e.target.value;
+    render();
+  }
+
+  function handleGenreChange(e) {
+    currentFilterState.genre = e.target.value;
+    render();
+  }
+
+  function handleReset() {
+    searchInput.value = '';
+    genreFilter.value = '';
+    currentFilterState.search = '';
+    currentFilterState.genre = '';
+    render();
+  }
+
+  function switchTab(tab) {
+    currentFilterState.tab = tab;
+    if (tab === 'all') {
+      showAllBtn.classList.add('active');
+      showFavsBtn.classList.remove('active');
+    } else {
+      showAllBtn.classList.remove('active');
+      showFavsBtn.classList.add('active');
+    }
+    render();
+  }
+
+  // Utils
+  function escapeHtml(s) {
+    return (s + '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
+  }
+
+  function debounce(fn, wait) {
+    let t;
+    return (...args) => {
+      clearTimeout(t);
+      t = setTimeout(() => fn(...args), wait);
+    };
+  }
+</script>
+</body>
+</html>

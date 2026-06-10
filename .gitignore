@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Caches
+omdb_cache.json
+wikipedia_cache.json
+
+# Large datasets and compiled binary arrays
+credits.csv/
+credits.csv.zip
+poster_features.npy
+poster_ids.npy
+poster_downloads/

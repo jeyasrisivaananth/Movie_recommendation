@@ -1,0 +1,791 @@
+index,tittle,genre,overview,director,cast
+0,I,Romance Thriller,The morale of the story is simply how pure love and sacrifice can overcome prejudice and evil. Shank,Shankar S,"Vikram , Amy Jackson, Santhanam , Suresh Gopi, Upen Patel"
+1,Darling,Horror Comedy,A rather interesting plot about a group of youngsters who plan to commit suicide but are not let off,Sam Anton,"Gv Prakash, Karunas , Nikki Galrani, Rajendran, Bala Saravanan"
+2,Aambala (U),Comedy Action,Long lost family members who have a grudge against each other due to misunderstanding have,Sundar C,"Vishal Krishna, Hansika Motwani, Ramya Krishnan, Prabhu Ganesan, Santhanam , Vaibhav Reddy, Sathish "
+3,Isai (U/A),Love Drama,"A maestro decides to snuff out his subordinate, after the latter subdued all his fame.",Suryah S.j.,"S J Surya, Savitri , Sathyaraj , Thambi Ramaiah, Ganja Karuppu, Jayaprakash"
+4,Yennai Arindhaal,Action Drama,"The life of a young boy, Sathyadev, takes a destined route when his father becomes an incidental cas",Gautham Menon,"Ajith Kumar, Anushka Shetty, Arun Vijay, Vivek , Trisha Krishnan, Daniel Balaji, Thalaivasal Vijay"
+5,Anegan,Fantasy Love,A story about Love that travels across eras.,K.v Anand,"Dhanush , Amyra Dastur, Karthik Muthuraman, Ashish Vidyarthi, Jagan, Thalaivasal Vijay"
+6,Tamiluku En Ondrai Aluthavum,Drama Thriller,"A deadly bomb will be activated if a computer geek restores a city's mobile networks, which are down",Ramprakash Rayappa,"Nakul , Dinesh , Bindu Madhavi, Urvashi , Sathish"
+7,Sandamarudham,Action Drama,"An undercover cop tries to foil the plans of an unrepentant criminal, who tries to supply an extreme",A Venkatesh,"Sarathkumar R, Samuthirakani , Oviya , Meera Nandan, Radha Ravi , Thambi Ramaiah, Vijayakumar"
+8,Kakki Sattai,Action Drama,A cop from the lower rung of hierarchy has to take on a powerful underworld mastermind.,Senthil,"Sivakarthikeyan , Sri Divya, Prabhu Ganesan, Mano Bala , Imman, Yogi Babu, Mayilsamy"
+9,Enakkul Oruvan,Mystery Drama,An insomniac is introduced to a drug named Lucia that would enable him lead an alternate life in his,Prasad Kumar,"Siddharth Narayan, Deepa Sannidhi, Ajay Rathnam, Aadukalam Naren"
+10,Katham Katham,,A corrupt police officer is suspected in the murder of another officer,Babu Thooyavan,"Nandha Durairaj, Natraj, Nizhalgal Ravi, Sanam Shetty"
+11,Rajathanthiram,Crime Thriller,Small-time criminals plan a big-time heist. Will they be successful in their attempt?,Ag Amid,"Veera Bahu, Regina Cassandra, Ilavarasu, Aadukalam Naren"
+12,Mahabalipuram,,"Panja, Kuppan,Kumar and Saamy help their friend Sathish to marry his girlfriend Sangeetha amidst opp",Don Sandy,
+13,Valiyavan,Romance Action,Vinod is shocked when a young woman proposes to him and asks him to beat an Olympic boxer in a match,Saravanan M,"Jai , Andrea Jeremiah, Bala Saravanan"
+14,Komban,Action Drama,A ruffian with a heart of gold who cannot stand injustice.,: Muthaiah,"Karthik Sivakumar, Lakshmi Menon, Rajkiran , Kovai Sarala, Karunas , Thambi Ramaiah"
+15,Nanbenda,Romance Comedy,"A man, who falls in love at first sight, gets responsible and also gets into trouble.",Jagadish,"Udhayanidhi Stalin, Santhanam , Nayantara"
+16,Sagaptham,Action Drama,"On migrating to Malaysia, a man accidentally chances upon a career as a detective.",Surendran,"Shanmugapandian, Neha Hinge, Devayani , Thalaivasal Vijay, Jagan, Powerstar Srinivasan"
+17,Chennai Ungalai Anbudan Varaverkirathu,,Chennai Ungalai Anbudan Varaverkirathu - these are the first words people hear after reaching Chenna,Maruthupandiyan,"Bobby Simha, Linga , Saranya , Prabanjayann"
+18,Ok Kanmani,Love Drama,"OK Kanmani, is all about journey leading up to a marriage. The film deals with the characters of two",Mani Ratnam,"Dulquer Salman , Nithya Menon, Prakash Raj , Kanika Subramaniam"
+19,Kanchana 2,Horror Comedy,The template of the franchise is firmly on place in Kachana 2 as well. Spirits avenge their death,Raghava Lawrence,"Lawrence Raghavendra, Taapsee Pannu, Kovai Sarala, Jayaprakash , Nithya Menon, Mano Bala , Mayilsamy"
+20,Vai Raja Vai,Thriller Drama,"The movie spins around Gautham Karthik's superpower (Extrasensory perception), which helps him to wi",Aishwarya Dhanush,"Gautham Karthik, Priya Anand, Taapsee Pannu, Vivek , Daniel Balaji, Sathish , Ms Bhaskar"
+21,uttama villain,Drama Family,The film is about the life of a superstar with and without a mask. The film dwells in detail the sup,Ramesh Aravind,"Kamal Haasan, Pooja Kumar, Jayaram , Nassar , Andrea Jeremiah, Urvashi , Ms Bhaskar"
+22,India Pakistan,Romance Comedy,The movie essentially starts of as a love hate relationship between two youngsters whose circumstanc,N. Anand,"Vijay Antony, Sushma Raj, Pasupathy , Yogi Babu, Mano Bala , Kaali Venkat, Ms Bhaska"
+23,36 Vayadhinile,Family Drama,"The movie revolves around Vasanthi Tamilselvan (Jyothika), who sacrifices her dreams for her family.",Rosshan Andrrews,": Jyotika Saravanan, Rahman , Devadarshini, Abhirami , Nassar , Delhi Ganesh, Jayaprakash"
+24,Purampokku,Social Drama,A crusader Balu(Arya) who has been awarded capital punishment is under the custody of a strict polic,Jananathan S.p.,": Arya , Vijay Sethupathi, Shaam , Karthika Nair"
+25,Demonte Colony,Thriller Horror,A bunch of youngsters playfully venture into a house rumored to be haunted only to find themselves,Ajay Gnanamuthu,"Arulnidhi , Ms Bhaskar, Singampuli, Madhumitha , Yogi Babu, Ramesh Thilaganathan"
+26,Masss,Thriller Horror,Venkat Prabhu blends the paranormal genre with his trademark commercial elements. Masss is very logi,Venkat Prabhu,"Suriya Sivakumar, Nayantara , Premji Amaren, Jayaram , Karunas , Parthiban , Sriman"
+27,Kaaka Muttai,Children Drama,Two kids from a slum yearn to have a slice of Pizza from a recently opened eat-out in their neighbou,Manikandan,"Ramesh Thilaganathan, Vignesh J, Aishwarya Rajesh, Babu Antony, Silambarasan Rajendar, Yogi Babu"
+28,Romeo Juliet,Love Romance,Aishwarya(Hansika) is on the lookout for her better half with a truck load of monetary anticipations,Laxman,"Jayam Ravi, Hansika Motwani, Poonam Bajwa, Vamsee Krishna , Vtv Ganesh, Arya"
+29,Papanasam ,Crime Family,The movie is all about a common family man who goes to extreme lengths to protect his wife and daugh,Jeethu Jospeh,"Kamal Haasan, Nivetha Thomas, Kalabhavan Mani, Ms Bhaskar, Gouthami Tadimalla, Charlie, Delhi"
+30,Baahubali,Adventure War,Amarendra Baahubali is the common man's savior. The people of his town worship him like they worship,S S Rajamouli,"Prabhas, Rana Daggubati, Anushka Shetty, Tamannah Bhatia, Ramya Krishnan, Sathyaraj , Sudeep"
+31,Maalai Nerathu Mayakkam,Love Romance,An unlikely couple get into the institute of 'arranged marriage,Geethanjali Selvaraghavan,"Bala Krishna Kola,, Wamiqa Gabbi, Parvathy Nair, Sharran, Kalyani Natarajan"
+32,Azhagu Kutti Chellam,Drama Children,Azhagu Kutti Chellam is an upcoming Tamil film written and directed by Charles. The film features an,Charles,"Aadukalam Naren, Karunas , Thambi Ramaiah, Ritwika, John Vijay, Akhil"
+33,Kathakali,Action Drama,A don whose nemeses outnumber the count of action films that Vishal has done is bumped off. It natur,Pandiaraj,"Vishal Krishna, Catherine Tresa, Karunas , Imman Annachi, Mime Gopi"
+34,Rajini Murugan,Comedy Drama,Rajini Murugan has got a handful of stories to tell. A lead pair whose love is under a cloud due to,Ponram,": Sivakarthikeyan , Prabhu Ganesan, Keerthi Suresh, Soori, Rajkiran , Samuthirakani , Kanaka"
+35,Thaarai Thappattai,Love Drama,The story is set against the backdrop of the life of folk dancers and their difficult livelihoods. V,Bala,"Sasikumar M, Varalaxmi Sarathkumar, G M Kumar, R.k Suresh, Gayathri Raguram, Anthony Daasan"
+36,Irudhi Suttru,Sports Love,It is the story of a failed boxer finding redemption through his protegee. Madhavan plays the role,Sudha Kongara,"Madhavan R, Ritikha Singh, Nassar , Radha Ravi , Mumtaz Sorcar, Kaali Venkat"
+37,Aranmanai 2,Comedy Horror,: A spirit is out to avenge the perpetuators of its death.,Sundar C,"Trisha Krishnan, Hansika Motwani, Siddharth Narayan, Sundar C, Poonam Bajwa, Vaibhav Reddy, Kovai Sarala"
+38,Visaranai,Crime Drama,Four labourers are tortured by the police to confess to a theft they have not committed. Just as the,Vetrimaaran,"Dinesh , Samuthirakani , Aadukalam Murugadoss, Anandhi, Kishore"
+39,Vil Ambu,Thriller Drama,The film follows the lives of two youngsters who are as different as chalk and cheese. With almost n,Ramesh Subramaniyam,"Sri , Harish Kalyan, Srushti Dange, Yogi Babu"
+40,Anjala,Comedy Drama,The film is about a family that is determined to save their ancestral tea shop from being demolished,Gopi Sunder,"Vimal , Nandita , Pasupathy , Imman Annachi"
+41,Theri,Action/Drama,A former policeman protects his daughter from gang threats while confronting his own violent past.,Atlee,"Vijay, Samantha Ruth Prabhu, Amy Jackson"
+42,Kabali,Action/Drama,An aging gangster seeks vengeance and reunites with his lost family after release from prison.,Pa. Ranjith,"Rajinikanth, Radhika Apte, Dhanshika"
+43,24,Sci-Fi Thriller,"A scientist invents a time-travel device, leading to confrontation with his evil twin.",Vikram Kumar,"Suriya, Samantha, Nithya Menen"
+44,Iru Mugan,Sci-Fi Action Thriller,A former RAW agent hunts a scientist with a dangerous adrenaline-boosting drug.,Anand Shankar,"Vikram, Nayanthara, Nithya Menen"
+45,Joker,Political Satire / Social Drama,An ordinary villager proclaims himself President to fight social injustice.,Raju Murugan,"Guru Somasundaram, Ramya Pandian, Gayathri Krishnaa"
+46,Dharma Durai,Slice-of-Life Drama,A man returns to his village to reconcile with his past and family after years of urban life.,Seenu Ramasamy,"Vijay Sethupathi, Tamannaah Bhatia, Aishwarya Rajesh"
+47,Miruthan,Action / Horror,A zombie outbreak in Tamil Nadu: a traffic cop and doctors race to find a cure.,Shakti Soundar Rajan,"Jayam Ravi, Lakshmi Menon, Anikha Surendran"
+48,Irudhi Suttru,Sports Drama,A burnt-out boxing coach nurtures a fisherwoman’s talent to help her reach the national circuit.,Sudha Kongara,"Madhavan, Ritika Singh, Nassar"
+49,Dhuruvangal Pathinaaru,Crime Thriller / Neo-noir,A retired police officer recounts his most haunting cold case.,Karthick Naren,"Rahman, Prakash Vijayaraghavan, Anjana Jayaprakash"
+50,Aandavan Kattalai,Satirical Drama,"Two friends attempt to travel to London to escape debts, only to find unexpected challenges.",M. Manikandan,"Vijay Sethupathi, Ritika Singh, Pooja Devariya"
+51,Baahubali 2: The Conclusion,Historical Epic,The heir fights to reclaim the throne from his power-hungry brother.,S. S. Rajamouli,"Prabhas, Rana Daggubati, Anushka Shetty"
+52,Mersal,Action/Drama,A vigilante combats corruption in health and justice systems.,Atlee,"Vijay, S. J. Suryah, Kajal Aggarwal, Nithya Menen"
+53,Vivegam,Action Thriller,A spy regains memory and stops an assassination plot.,Siva,"Ajith Kumar, Kajal Aggarwal, Vivek Oberoi"
+54,Theeran Adhigaaram Ondru,Crime Thriller,True-life story of counter-terrorism in Tamil Nadu.,H. Vinoth,"Karthi, Rakul Preet Singh"
+55,Vikram Vedha,Crime Thriller,A cop and a gangster play a moral game of cat and mouse.,Pushkar-Gayathri,"R. Madhavan, Vijay Sethupathi"
+56,2,Sci-Fi Action,Dr. Vaseegaran summons robot Chitti to fight a techno entity.,S. Shankar,"Rajinikanth, Akshay Kumar, Amy Jackson"
+57,Kaala,Action/Drama,A slumlord fights corporate greed and eviction threats.,Pa. Ranjith,"Rajinikanth, Nana Patekar, Samuthirakani"
+58,Thaanaa Serndha Koottam,Crime/Heist,A man creates a fake CBI squad to expose corruption.,Vignesh Shivan,"Suriya, Keerthy Suresh, Karthik"
+59,Vada Chennai,Crime Drama,A carrom player gets drawn into the city’s crime world.,Vetrimaaran,"Dhanush, Aishwarya Rajesh, Andrea Jeremiah"
+60,Irumbu Thirai,Technology Thriller,An officer battles identity theft and cybercrime.,P. S. Mithran,"Vishal, Samantha, Arjun"
+61,Kaithi,Action Thriller,An ex-convict helps cops to see his daughter again.,Lokesh Kanagaraj,"Karthi, Narain, Arjun Das"
+62,Petta,Action Drama,A hostel warden with a violent past settles old scores.,Karthik Subbaraj,"Rajinikanth, Vijay Sethupathi, Simran"
+63,Viswasam,Family Action,A village leader fights for his community and family.,Siva,"Ajith Kumar, Nayanthara, Vivek"
+64,Mouna Guru,Action,"Mouna Guru,""A misunderstood youth is caught in a conspiracy and must prove his innocence.""",Santha Kumar,Arulnithi
+65,7 Aum Arivu,Action,"7 Aum Arivu,""A genetic engineering project revives the past to stop a bio-war threat.""",A.R. Murugadoss,Suriya
+66,Vaagai Sooda Vaa,Comedy,"Vaagai Sooda Vaa,""A young teacher brings change to a remote village and finds love.""",A. Sarkunam,Vimal
+67,Mankatha,Action,"Mankatha,""A suspended cop plans a heist involving cricket betting and betrayal.""",Venkat Prabhu,Ajith Kumar
+68,Kanchana: Muni 2,Comedy,"Kanchana: Muni 2,""A man possessed by a ghost uncovers the injustice done to a transgender person.""",Lawrence Raghavendra,Lawrence Raghavendra
+69,Deiva Thirumagal,Drama,"Deiva Thirumagal,""A mentally challenged father fights for custody of his daughter.""",A.L. Vijay,Vikram
+70,Vaanam,Action,"Vaanam,""Five strangers from different walks of life are connected by a common cause.""",Radha Krishna Jagarlamudi,T.R. Silambarasan
+71,Ko,Action,"Ko,""A photojournalist gets entangled in political corruption and election intrigue.""",K.V. Anand,Jiiva
+72,Payanam,Action,"Payanam,""An airplane hijack leads to a tense rescue operation by commandos.""",Radha Mohan,Nagarjuna Akkineni
+73,Yutham Sei,Crime,"Yutham Sei,""A detective investigates a series of brutal murders linked to a revenge plot.""",Myshkin,Cheran
+74,Aadukalam,Action,"Aadukalam,""A young man’s life changes after a cockfighting competition turns deadly.""",Vetrimaaran,Dhanush
+75,Naduvula Konjam Pakkatha Kaanom,Comedy,"Naduvula Konjam Pakkatha Kaanom,""A man loses his memory before his wedding, leading to hilarious confusion.""",Balaji Tharaneetharan,Vijay Sethupathi
+76,Thuppakki,Action,"Thuppakki,""An army captain uncovers a sleeper cell in Mumbai and takes on a deadly mission.""",A.R. Murugadoss,Joseph Vijay
+77,Pizza,Horror,"Pizza,""A pizza delivery boy’s life turns into a nightmare involving ghosts and secrets.""",Karthik Subbaraj,Vijay Sethupathi
+78,Naan,Crime,"Naan,""A man assumes a false identity and becomes a serial killer to escape his past.""",Jeeva Shankar,Vijay Antony
+79,The Fly,Action,"The Fly,Action,""A murdered man reincarnates as a housefly and seeks revenge against his killer.""",S.S. Rajamouli,J.V.V. Sathyanarayana
+80,Kalakalappu,Comedy,"Kalakalappu,Comedy,""Two brothers with a crumbling restaurant get caught in chaos involving corrupt politicians and petty thieves.""",Sundar C.,Vimal
+81,Vazhakku Enn 18/9,Crime,"Vazhakku Enn 18/9,Crime,""A gritty tale of crime and justice unfolds when a schoolgirl becomes the victim of a scandal.""",Balaji Sakthivel,Sri
+82,Kumki,Drama,"Kumki,Drama,""A young mahout and his elephant are sent to a tribal village where danger and love await.""",Prabu Solomon,Vikram Prabhu
+83,Neethaane En Ponvasantham,Romance,"Neethaane En Ponvasantham,Romance,""A couple goes through the ups and downs of love from school to adulthood.""",Gautham Vasudev Menon,Jiiva
+84,Thalaimuraigal,Drama,"Thalaimuraigal,Drama,""A retired Siddha doctor reconnects with his grandson and confronts caste divisions.""",Balu Mahendra,Karthick
+85,Biriyani,Action,"Biriyani,Action,""A man accused of murder sets out to prove his innocence in a case tied to food and politics.""",Venkat Prabhu,Karthi
+86,Ivan Veramaathiri,Action,"Ivan Veramaathiri,Action,""A common man becomes a vigilante to bring corrupt political criminals to justice.""",M. Saravanan,Vikram Prabhu
+87,Kalyana Samayal Saadham,Comedy,"Kalyana Samayal Saadham,Comedy,""A groom-to-be deals with anxiety and societal expectations before his arranged marriage.""",R.S. Prasanna,Prasanna
+88,Irandam Ulagam,Action,"Irandam Ulagam,Action,""Two parallel love stories unfold in different worlds—one real, one fantasy.""",K. Selvaraghavan,Arya
+89,Pandiya Naadu,Action,"Pandiya Naadu,Action,""A peaceful man is pulled into violence after his brother is killed by gangsters.""",Suseenthiran,Vishal
+90,Arrambam,Action,"Arrambam,Action,""A former soldier uses cyber warfare to expose government corruption.""",Vishnuvardhan,Ajith Kumar
+91,Onaayum Aattukkuttiyum,Action,"Onaayum Aattukkuttiyum,Action,""A medical student helps a wounded criminal, getting entangled in a cat-and-mouse chase.""",Myshkin,Myshkin
+92,Raja Rani,Comedy,"Raja Rani,Comedy,""A newly married couple learns to move past their previous heartbreaks.""",Atlee Kumar,Arya
+93,6 Candles,Thriller,"6 Candles,Thriller,""A father searches through the underworld to rescue his kidnapped son.""",V.Z. Dhorai,Sandra Amy
+94,Moodar Koodam,Comedy,"Moodar Koodam,Comedy,""Four friends plan a robbery, which goes hilariously wrong.""",Naveen,Naveen
+95,Varuthapadatha Valibar Sangam,Comedy,"Varuthapadatha Valibar Sangam,Comedy,""A carefree youth group stumbles into a love and family drama.""",Ponram,Sivakarthikeyan
+96,Thanga Meengal,Drama,"Thanga Meengal,Drama,""A father struggles to secure a good education for his daughter while battling poverty.""",Ram,Ram
+97,Aadhalal Kadhal Seiveer,Romance,"Aadhalal Kadhal Seiveer,Romance,""Teenage love leads to emotional turmoil and societal consequences.""",Suseenthiran,Santhosh Ramesh
+98,Maryan,Adventure,"Maryan,Adventure,""A kidnapped Indian worker in Sudan fights for survival and to return to his love.""",Ganapathy Bharat,Dhanush
+99,Singam 2,Action,"Singam 2,Action,""A tough police officer, Durai Singam, takes on a global crime syndicate in this high-octane action sequel.""",Hari,Suriya
+100,Theeya Velai Seiyyanum Kumaru,Comedy,"Theeya Velai Seiyyanum Kumaru,Comedy,""A young man, Kumar, seeks advice from a love guru to win over the girl of his dreams, leading to hilarious situations.""",Sundar C.,Siddharth
+101,Neram,Action,"Neram,Action,""A young man finds himself in a race against time to repay a loan shark, with parallel narratives showcasing the events in both Tamil and Malayalam.""",Alphonse Puthren,Nivin Pauly
+102,Soodhu Kavvum,Comedy,"Soodhu Kavvum,Comedy,""A group of amateur kidnappers find themselves in over their heads when their plans go awry, leading to a dark comedy of errors.""",Nalan Kumarasamy,Vijay Sethupathi
+103,Ethir Neechal,Comedy,"Ethir Neechal,Comedy,""A young man struggles with low self-esteem and tries to find his identity and success through running.""",R.S. Durai Senthilkumar,Sivakarthikeyan
+104,Kedi Billa Killadi Ranga,Comedy,"Kedi Billa Killadi Ranga,Comedy,""Two aimless young men from a small town try to make a name for themselves in local politics, resulting in humorous chaos.""",Pandiraj,Vimal
+105,Paradesi,Drama,"Paradesi,Drama,""Based on true events, the film depicts the harsh lives of tea plantation workers during the British colonial period.""",Bala,Atharvaa Murali
+106,Kaakkaa Muttai,Comedy,"Kaakkaa Muttai,Comedy,""Two slum-dwelling brothers yearn to taste a pizza, leading them on an innocent yet determined quest to earn money.""",M. Manikandan,Ramesh
+107,Kayal,Romance,"Kayal,Romance,""A romantic drama set against the backdrop of the 2004 Indian Ocean tsunami, focusing on the love story of two young individuals.""",Prabu Solomon,Chandran
+108,Pisasu,Horror,"Pisasu,Horror,""A struggling violinist encounters the ghost of a young woman and tries to uncover the truth behind her death.""",Myshkin,Naga
+109,Lingaa,Action,"Lingaa,Action,""A dual-role film where Superstar Rajinikanth plays both a pre-independence era zamindar and his modern-day grandson, fighting for a cause.""",K.S. Ravikumar,Rajinikanth
+110,Kaaviya Thalaivan,Drama,"Kaaviya Thalaivan,Drama,""A historical drama set in the 1930s, exploring the lives and rivalry of two aspiring stage actors.""",Vasanthabalan,Siddharth
+111,Kaththi,Action,"Kaththi,Action,""A lookalike case sees a petty criminal assume the identity of an activist and fight for the rights of farmers against corporate exploitation.""",A.R. Murugadoss,Joseph Vijay
+112,Jeeva,Drama,"Jeeva,Drama,""A young cricketer faces challenges and obstacles in his journey to achieve his dream of playing for the national team.""",Suseenthiran,Vishnu Vishal
+113,Madras,Action,"Madras,Action,""Set in North Chennai, the film explores the lives of two friends, their loyalty, and the impact of local politics on their community.""",Pa. Ranjith,Karthi
+114,Kathai Thiraikathai Vasanam Iyakkam,Drama,"Kathai Thiraikathai Vasanam Iyakkam,Drama,""A meta-film that explores the process of filmmaking, where a director struggles to come up with a script.""",Parthiban,Thambi Ramaiah
+115,Jigarthanda,Action,"Jigarthanda,Action,""An aspiring filmmaker attempts to make a gangster film by shadowing a real-life gangster, leading to unexpected and darkly humorous consequences.""",Karthik Subbaraj,Siddharth
+116,Velaiilla Pattadhari,Action,"Velaiilla Pattadhari,Action,""A jobless civil engineering graduate struggles to find work and respect, eventually fighting against corporate corruption.""",Velraj,Dhanush
+117,Sathuranga Vettai,Crime,"Sathuranga Vettai,Crime,""A con artist uses various elaborate schemes to deceive people, showcasing the dark side of human greed.""",H. Vinoth,Nataraja Subramanian
+118,Saivam,Drama,"Saivam,Drama,""A young girl's simple wish to save a rooster from being sacrificed for a family ritual leads to heartwarming family drama.""",A.L. Vijay,Nassar
+119,Mundaasupatti,Comedy,"Mundaasupatti,Comedy,""A photographer visits a village where people believe that being photographed shortens their lifespan, leading to comical situations.""",Ram Kumar,Vishnu Vishal
+120,Kochadaiiyaan,Animation,"Kochadaiiyaan,Animation,""India's first motion capture 3D animation film, featuring Rajinikanth in a historical action story.""",Soundarya R. Ashwin,Rajinikanth
+121,Vaayai Moodi Pesavum,Comedy,"Vaayai Moodi Pesavum,Comedy,""Set in a town where people are afflicted by a mysterious 'silent' disease, the film explores communication and relationships.""",Balaji Mohan,Dulquer Salmaan
+122,Cuckoo,Drama,"Cuckoo,Drama,""A heartwarming love story between two visually impaired individuals, exploring their unique perceptions of life and love.""",Raju Murugan,Dinesh
+123,Thegidi,Crime,"Thegidi,Crime,""A young detective specializing in background checks uncovers a larger conspiracy while investigating a case.""",P. Ramesh,Ashok Selvan
+124,Pannaiyarum Padminiyum,Comedy,"Pannaiyarum Padminiyum,Comedy,""A gentle landlord's obsession with owning a car, particularly a Premier Padmini, drives this charming and humorous tale.""",S.U. Arun Kumar,Vijay Sethupathi
+125,Goli Soda,Action,"Goli Soda,Action,""Four street-smart teenagers from a market strive to make a name for themselves by starting their own business.""",Vijay Milton,Kishore Kumar G.
+126,Veeram,Action,"Veeram,Action,""A protective elder brother takes on a gang to safeguard his sisters and their future, leading to intense action.""",Siva,Ajith Kumar
+127,Rajini Murugan,Action,"Rajini Murugan,Action,""A young man struggles with his love life and family, eventually proving his worth and finding success.""",Ponram,Sivakarthikeyan
+128,Visaaranai,Crime,"Visaaranai,Crime,""A raw and gripping portrayal of police brutality and corruption, focusing on four innocent men caught in the system.""",Vetrimaaran,Dinesh
+129,Pasanga 2,Drama,"Pasanga 2,Drama,""The film highlights the issues faced by children with ADHD and the challenges parents face in understanding and supporting them.""",Pandiraj,Suriya
+130,Thoongaavanam,Action,"Thoongaavanam,Action,""A police officer on the verge of divorce finds himself in a race against time to rescue his son from drug dealers in a single night.""",Rajesh M. Selva,Kamal Haasan
+131,Naanum Rowdy Thaan,Action,"A quirky action-comedy about a wannabe rowdy, Pandian, who falls for a deaf girl, Kadhambari, seeking revenge for her father’s murder. Their chaotic journey blends romance, humor, and action.",Vignesh Shivan,Vijay Sethupathi
+132,Kuttram Kadithal,Drama,"A poignant drama about a teacher whose impulsive act leads to a student’s hospitalization, exploring guilt, societal judgment, and redemption in a school setting.",Bramma G.,Master Ajay
+133,Kirumi,Crime,"A gritty crime drama about a man entangled in a web of illegal activities, highlighting the consequences of greed and betrayal in a tense narrative.",Anu Charan,Anucharan
+134,Maya,Horror,"A chilling horror film centered on a single mother, Maya, facing supernatural events linked to a cursed film, blending psychological terror with mystery.",Ashwin Saravanan,Nayanthara
+135,Thani Oruvan,Action,"A high-octane action thriller about an honest cop, Mithran, battling a brilliant criminal mastermind, Siddharth, in a cat-and-mouse game of wits and action.",Mohan Raja,Jayam Ravi
+136,Papanasam,Drama,"A Tamil remake of Drishyam, this drama follows a family man, Suyambulingam, who uses his wit to protect his family after an accidental crime, emphasizing family bonds and moral dilemmas.",Jeethu Joseph,Kamal Haasan
+137,Indru Netru Naalai,Comedy,"A sci-fi comedy about two friends who stumble upon a time machine, leading to hilarious misadventures and unexpected consequences.",R. Ravikumar,Vishnu Vishal
+138,Demonte Colony,Horror,"A group of friends explore a haunted mansion, facing terrifying supernatural events tied to its dark history in this gripping horror-thriller.",R. Ajay Gnanamuthu,Arulnithi
+139,36 Vayadhinile,Drama,"A remake of How Old Are You?, this drama follows a 36-year-old woman rediscovering her ambitions and self-worth, tackling societal expectations and personal growth.",Roshan Andrews,Jyotika
+140,Uttama Villain,Comedy,"A meta-comedy-drama about a superstar actor facing a terminal illness, blending his real life with a fictional film he’s shooting, exploring legacy and redemption.",Ramesh Aravind,Kamal Haasan
+141,Kanchana 2,Comedy,"A horror-comedy sequel where a man possessed by spirits seeks to uncover their tragic past, mixing scares with humor and emotional moments.",Lawrence Raghavendra,Lawrence Raghavendra
+142,OK Kanmani,Romance,"A modern love story about two young professionals exploring a live-in relationship, balancing career ambitions and romance with a fresh, urban vibe.",Mani Ratnam,Dulquer Salmaan
+143,Rajathandhiram,Action,"A stylish heist thriller about a group of con artists planning a high-stakes robbery, filled with clever twists and suspense.",A.G. Amid,Veera Bahu
+144,Enakkul Oruvan,Thriller,"A psychological thriller about a man with a split personality navigating dreams and reality, remade from the Kannada film Lucia.",Prasad Ramar,Siddharth
+145,Press 1 for Tamil,Comedy,A light-hearted comedy about a call center employee whose life takes unexpected turns due to quirky workplace and personal antics.,Ramprakash Rayappa,Nakhul
+146,Yennai Arindhaal,Action,"An action-packed cop drama following Sathyadev, a determined police officer, as he battles criminals and personal struggles, starring Ajith Kumar.",Gautham Vasudev Menon,Ajith Kumar
+147,I,Action,"A visually stunning action-romance about a bodybuilder seeking revenge against those who wronged him, blending intense action with a transformative love story.",S. Shankar,Vikram
+148,Dhuruvangal Pathinaaru,Action,"A gripping crime thriller about a retired cop recounting a complex case involving a double murder, filled with twists and nonlinear storytelling.",Karthick Naren,Rahman
+149,Chennai 600028 Second Innings,Comedy,"A sequel to the cult classic, this sports comedy follows the same cricket team navigating personal and professional challenges with humor.",Venkat Prabhu,Jai
+150,Achcham Yenbadhu Madamaiyada,Action,"A romantic action thriller about a young man’s road trip with his love interest, which turns dangerous due to unexpected criminal encounters.",Gautham Vasudev Menon,T.R. Silambarasan
+151,Ammani,Drama,"A heartfelt drama about the bond between an elderly woman and a young man, exploring themes of compassion and human connection.",Lakshmi Ramakrishnan,Semmalar Annam
+152,Aandavan Kattalai,Drama,"A comedy-drama about two illegal immigrants seeking to escape their troubles, addressing bureaucracy and identity with humor and heart.",M. Manikandan,Vijay Sethupathi
+153,Kuttrame Thandanai,Crime,"A crime thriller about a man with a vision impairment who becomes a witness to a murder, unraveling a web of deceit and moral ambiguity.",M. Manikandan,Vidharth
+154,Dharmadurai,Drama,"A rural drama about a doctor returning to his village, confronting family issues and personal demons, emphasizing love and redemption.",Seenu Ramasamy,Vijay Sethupathi
+155,Joker,Comedy,"A satirical comedy-drama critiquing political corruption, following a man who takes on the system to fight for justice in his village.",Raju Murugan,Raju Saravanan
+156,Kabali,Action,"A Rajinikanth-starrer, this action drama follows an aging gangster seeking justice for his community while confronting his past in Malaysia.",Pa. Ranjith,Rajinikanth
+157,Metro,Action,"A gritty action thriller about a young man drawn into a chain-snatching racket, exploring crime and its societal impact in Chennai.",Ananda Krishnan,Shirish
+158,Iraivi,Crime,"A multi-narrative crime drama exploring toxic masculinity and relationships, weaving together the lives of three men and the women in their lives.",Karthik Subbaraj,S.J. Suryah
+159,Uriyadi,Action,"A political action thriller about college students caught in caste-based violence, delivering a raw and intense commentary on social issues.",Vijay Kumar,Vijay Kumar
+160,24,Action,"A sci-fi action thriller about a scientist inventing a time-travel device, leading to a battle between his twin brother and a villain, starring Suriya.",Vikram K. Kumar,Suriya
+161,Theri,Action,"A Vijay-starrer action drama about a former cop living a quiet life, forced back into action to protect his daughter from a vengeful criminal.",Atlee Kumar,Joseph Vijay
+162,Oopiri,Comedy,A heartwarming comedy-drama (remake of The Intouchables) about the bond between a paralyzed millionaire and his carefree caretaker.,Vamshi Paidipally,Nagarjuna Akkineni
+163,Kadhalum Kadanthu Pogum,Comedy,"A romantic comedy about an unlikely love story between a gangster and an ambitious girl, remade from My Sassy Girl.",Nalan Kumarasamy,Vijay Sethupathi
+164,Pichaikkaran,Action,"An action drama about a wealthy man living as a beggar for 50 days to save his mother, blending action with emotional stakes.",Sasi,Vijay Antony
+165,Saala Khadoos,Action,"A sports drama about a disgraced boxing coach training a rebellious young woman to become a champion, remade from Irudhi Suttru.",Sudha Kongara,Madhavan
+166,Crime 23,Action,"A lesser-known action film focusing on crime and retribution, though specific plot details are sparse in available records.",Arivazhagan Venkatachalam,Arun Vijay
+167,Muthuramalingam,Action,"An action drama about a village youth caught in family feuds and local power struggles, rooted in rural Tamil Nadu.",Rajadurai,Priya Anand
+168,Dream Factory,Drama,"A drama exploring the struggles of aspiring filmmakers in the Tamil film industry, highlighting ambition and perseverance.",Arun Chidambaram,Jiya Anil Manne
+169,Yaman,Action,"A political action thriller about a common man’s fight against corruption and power, starring Vijay Antony.",Jeeva Shankar,Vijay Antony
+170,Ennodu Vilayadu,Thriller,"A thriller about a man entangled in a gambling scam, navigating danger and deception to reclaim his life.",Arun Krishnaswami,Bharath Srinivasan
+171,Kadhal Kan Kattudhe,Drama,"A romantic drama about modern relationships, exploring love, misunderstandings, and emotional growth.",Shivaraj,Aneeruth
+172,Pagadi Aattam,Crime,"A crime drama about a police officer uncovering a conspiracy involving illegal activities, with a focus on justice.",Ram K. Chandran,Rahman
+173,Rum,Horror,"A horror-thriller about a couple encountering supernatural events in a secluded house, blending scares with suspense.",Sai Bharath,Arjun Chidambaram
+174,Singam 3,Action,"The third installment of the Singam franchise, featuring Suriya as a fearless cop tackling international crime syndicates.",Hari,Suriya
+175,Bogan,Action,"An action thriller about body-swapping between a cop and a criminal, leading to a battle of wits and action.",Lakshman,Jayam Ravi
+176,Enakku Vaaitha Adimaigal,Comedy,"A comedy about four friends navigating personal crises with humor, focusing on friendship and love.",Mahendran Rajamani,Jai
+177,Koditta Idangalai Nirappuga,Comedy,"A quirky comedy-drama about a man’s obsession with a married woman, leading to chaotic and humorous situations.",Parthiban,Shanthnu Bhagyaraj
+178,Adhe Kangal,Action,"A thriller about a visually impaired chef caught in a web of crime and deception, with unexpected twists.",Rohin Venkatesan,R. Aravindraj
+179,Bairavaa,Action,A Vijay-starrer action drama about a man taking on a corrupt education mafia to seek justice for a friend’s death.,Bharathan,Joseph Vijay
+180,Lens,Drama,"A psychological drama about online voyeurism and its consequences, exploring privacy and morality in the digital age.",Jayaprakash Radhakrishnan,Anand Sami
+181,Aruvi,Drama,"A bold drama about a young woman’s rebellion against societal norms, addressing issues like consumerism and patriarchy with raw emotion.",Arun Prabhu Purushothaman,Aditi Balan
+182,Ulkuththu,Thriller,"An action-thriller set in a coastal village, focusing on rivalry, revenge, and local power dynamics.",Caarthick Raju,Dr. Chef Damodaran
+183,Balloon,Horror,"A horror-comedy about a filmmaker haunted by supernatural events tied to his own horror movie, blending scares and laughs.",Sinish,Anjali
+184,Kalavaadiya Pozhuthugal,Romance,"A romantic drama about rekindled love between former lovers, exploring sacrifice and second chances.",Thangar Bachan,Bhoomika Chawla
+185,Velaikkaran,Action,"An action drama about a young man infiltrating a corrupt food industry to expose its malpractices, starring Sivakarthikeyan.",Mohan Raja,Sivakarthikeyan
+186,Sakka Podu Podu Raja,Action,"A comedic action film about a carefree man caught in a gang war, featuring Santhanam in a lead role.",G.L. Sethuraman,Aryan
+187,Bhrama.com,Action,"A lesser-known action-comedy about mistaken identities and chaotic events, with limited details available.",P.S. Vijayakumar,Bhagyaraj
+188,Chennai 2 Singapore,Comedy,"A romantic comedy about a filmmaker’s journey to Singapore to complete his dream project, filled with humorous mishaps.",Abbas Akbaar,Abbas Akbar
+189,12-12-1950,Comedy,"A period comedy set in the post-independence era, focusing on humorous village dynamics and quirky characters.",Selvaah,Yogi Babu
+190,Kodiveeran,Action,"A rural action drama about a man protecting his family and village from local goons, rooted in tradition and loyalty.",M. Muthaiya,Gnanasambandam
+191,Richie,Action,"A remake of Ulidavaru Kandanthe, this action-crime drama follows a man’s journey through a nonlinear tale of crime and redemption.",Gautham Ramachandran,Nivin Pauly
+192,Annadurai,Action,"An action drama about twin brothers with contrasting lives, exploring family ties and moral choices.",G. Srinivasan,Vijay Antony
+193,Thiruttu Payale 2,Thriller,"A sequel to the 2006 thriller, focusing on a cop uncovering a web of deceit involving infidelity and crime.",Susi Ganesan,Bobby Simha
+194,English Padam,Comedy,"A horror-comedy spoofing Tamil cinema tropes, centered on a haunted theater and quirky characters.",Kumaresh Kumar,Sreeja Das
+195,Indrajith,Action,"An adventure-action film about a treasure hunt, blending mythology and modern-day thrills.",Kalaprabhu Thanu,Gautham Karthik
+196,En Aaloda Seruppa Kaanom,Comedy,"A comedy about a man’s chaotic search for his missing slipper, which holds sentimental value.",Jagan,K.P. Jagan
+197,Theeran Adhigaram Ondru,Action,"A cop action thriller based on real events, following a determined officer tracking a ruthless gang of dacoits.",H. Vinoth,Karthi
+198,C/o Surya,Action,"A Telugu-Tamil action drama about a man caught in a feud, balancing love and loyalty amidst violence.",Suseenthiran,Sundeep Kishan
+199,Ippadai Vellum,Action,"An action thriller about a software engineer caught in a terrorist plot, racing against time to save lives.",Gaurav Narayanan,Udhayanidhi Stalin
+200,Aramm,Drama,"A social drama about a district collector’s efforts to rescue a girl trapped in a well, addressing bureaucracy and human compassion.",Gopi Nainar,Nayanthara
+201,The House Next Door,Horror,"A Hindi-Tamil horror film about a family facing supernatural events in their new home, starring Siddharth.",Milind Rau,Prakash Belawadi
+202,Vizhithiru,Drama,"A multi-narrative drama about interconnected lives in Chennai, exploring love, crime, and human struggles.",Meera Kathiravan,Abhinaya
+203,Kadaisi Bench Karthi,Comedy,A teen comedy about a mischievous student’s antics and growth in a school setting.,Ravee Paargavan,Gnanasambandam
+204,Mersal,Action,"A Vijay-starrer action drama about a doctor and magician seeking justice against medical corruption, with a dual-role narrative.",Atlee Kumar,Joseph Vijay
+205,Meyaadha Maan,Romance,"A romantic comedy about a young man’s pursuit of his childhood crush, blending humor with heartfelt moments.",Rathna Kumar,Vaibhav Reddy
+206,Solo,Action,"An anthology action film exploring four stories tied to the elements, starring Dulquer Salmaan.",Bejoy Nambiar,Dulquer Salmaan
+207,Hara Hara Mahadevaki,Comedy,"A raunchy comedy about a couple’s misadventures, filled with adult humor and chaotic situations.",Santhosh P. Jayakumar,Kovai Babu
+208,Karuppan,Action,A rural action drama about a man’s love and loyalty tested by family feuds and village rivalries.,R. Panneerselvam,Sami Rajalingam
+209,Spyder,Action,"A bilingual action thriller about an intelligence officer tracking a psychopathic killer, starring Mahesh Babu.",A.R. Murugadoss,Mahesh Babu
+210,Bayama Irukku,Comedy,"A horror-comedy about friends encountering spooky events in a haunted house, filled with laughs.",Jawahar,Santhosh Prathap
+211,Aayirathil Iruvar,Action,"An action drama about twin brothers and their intertwined lives, marked by romance and rivalry.",Saran,Vinay Rai
+212,Kalavu Thozhirchalai,Thriller,"A crime thriller about a heist gone wrong, exploring greed and betrayal in a tense narrative.",T Krishna Samy,T. Krishnasamy
+213,Veedevadu,Thriller,"A Telugu-Tamil thriller about a man uncovering dark secrets, with suspenseful twists.",Tatineni Satya,Esha Gupta
+214,Thupparivaalan,Action,"A detective action thriller about a Sherlock-inspired sleuth solving a complex case, starring Vishal.",Myshkin,Vishal
+215,Kathanayagan,Comedy,"A comedy about a timid man pretending to be a hero to win his love, filled with humorous misunderstandings.",Tha. Muruganatham,Meera Krishna
+216,Neruppu Da,Action,"An action drama about firefighters facing personal and professional challenges, with a focus on bravery.",Nikki Galrani,Nagineedu
+217,Kurangu Bommai,Drama,"A crime drama about a stolen idol and interconnected lives, weaving a tale of loyalty and betrayal.",Nithilan,Vidharth
+218,Maayavan,Action,"A sci-fi action thriller about a cop hunting a serial killer with a futuristic twist, starring Sundeep Kishan.",C.V. Kumar,Sundeep Kishan
+219,Puriyaatha Puthir,Thriller,"A psychological thriller about a man uncovering hidden truths in his girlfriend’s life, remade from Memories.",Ranjit Jeyakodi,Vijay Sethupathi
+220,Vivegam,Action,"An Ajith-starrer action thriller about a former counter-terrorism agent betrayed by his team, fighting to clear his name.",Siva,Ajith Kumar
+221,Thappu Thanda,Crime,"A crime drama about a small-time crook’s misadventure during a heist, exploring loyalty and consequences.",Srikantan,Ajay Ghosh
+222,Taramani,Drama,"A modern drama about love, betrayal, and societal pressures in urban Chennai, with a feminist perspective.",Ram,Anjali
+223,Velaiyilla Pattathari 2,Action,"A sequel to VIP, this action-comedy follows an engineer battling corporate greed and personal setbacks.",Soundarya R. Ashwin,Riaz Ahmed
+224,Podhuvaga En Manasu Thangam,Comedy,"A rural comedy about two friends caught in village politics and romance, with humorous chaos.",Thalapathy Prabhu,Parthiban
+225,Kootathil Oruthan,Comedy,"A drama-comedy about an average man’s journey to win respect and love, focusing on self-discovery.",T.J. Gnanavel,Ashok Selvan
+226,Nibunan,Action,"An action thriller about a cop hunting a serial killer, balancing professional duty and personal life.",Arun Vaidyanathan,Varalaxmi Sarathkumar
+227,Meesaya murukku,Biography,"A biographical comedy about a young musician’s rise to fame, blending music, romance, and humor.",Hiphop Tamizha Adhi,Hiphop Tamizha Adhi
+228,Vikram Vedha,Action,"A crime thriller about a cop and a gangster in a moral tug-of-war, inspired by the Vikram-Betaal folklore, starring Vijay Sethupathi and Madhavan.",Gayatri,Pushkar
+229,Rubaai,Action,"An action drama about a group of friends caught in a heist gone wrong, exploring loyalty and survival.",M. Anbazhagan,Anandhi
+230,Magalir Mattum,Drama,"A drama about three women reuniting to fulfill a friend’s dream, celebrating female friendship and empowerment.",Bramma G.,Jyotika
+231,Pandigai,Action,An action thriller about a street fighter and a hotel worker teaming up to escape a dangerous underworld.,Feroz,Kreshna
+232,Thiri,Drama,"A drama about a student’s struggles with academic pressure and personal aspirations, with a focus on youth.",Ashok Amritharaj S.,A.L. Azhagappan
+233,Gemini Ganesanum Suruli Rajanum,Comedy,"A comedy about a man’s chaotic journey to reunite with his lost loves, filled with hilarious mix-ups.",Ilavarasu Odam,Regina Cassandra
+234,Chennaiyil Oru Naal 2,Thriller,"A sequel to the 2013 thriller, focusing on a new crime investigation with interconnected lives.",Jpr,Sarath Kumar
+235,Ivan Thanthiran,Action,"An action-comedy about two engineering students taking on a corrupt minister, blending tech and humor.",R. Kannan,RJ Balaji
+236,Adhagappattathu Magajanangalay,Comedy,"A musical comedy about a band’s misadventures, filled with quirky characters and songs.",Inba Sekhar,Inbasekhar
+237,Yaanum Theeyavan,Action,"An action thriller about a man seeking revenge after his girlfriend’s abduction, with intense drama.",Prashanth G Sekr,Prashanth G Sekar
+238,Vanamagan,Action,"An action-adventure about a tribal man adapting to urban life, starring Jayam Ravi, with themes of nature vs. civilization.",A.L. Vijay,Arjun
+239,Anbanavan Asaradhavan Adangadhavan,Action,"A comedic action film about a conman’s dual life, starring Silambarasan, though critically panned.",Adhik Ravichandran,Tamannaah Bhatia
+240,Maragatha Nananya,Adventure,"A fantasy-adventure about a cursed emerald, blending comedy, action, and supernatural elements.",Ark Saravan,Aadhi
+241,Uru,Thriller,"A horror-thriller about a couple trapped in a forest with a mysterious entity, exploring survival and fear.",Vicky Anand,Vicky Anand
+242,Peechaankai,Comedy,"A comedy about a pickpocket with an alien hand syndrome, leading to hilarious and chaotic situations.",Ashok,Rskarthiik
+243,Rangoon,Action,"A crime-action drama about a Burmese-Tamil smuggler’s journey, exploring identity and redemption.",Rajkumar Periasamy,Gautham Karthik
+244,Sathriyan,Action,"A romantic action drama about a man caught in a gang war while pursuing love, set in a rural backdrop.",Vikram Prabhu,Manjima Mohan
+245,Bongu,Crime,"A crime thriller about a group of friends planning a car heist, facing betrayal and danger.",Taj,Pooja Bisht
+246,Oru Kidayin Karunai Manu,Drama,"A quirky drama about a village’s moral dilemma when a goat causes an accident, blending humor and humanity.",Suresh Sangaiah,Suresh Sangaiah
+247,Oru Iyakkunarin Kadhal Diary,Drama,"A romantic drama about a filmmaker’s love story, exploring passion and sacrifice.",V Brabhakar,Velu Prabhakaran
+248,7 Naatkal,Thriller,"A mystery thriller about a murder investigation, unraveling secrets across seven days.",Gautham V.R.,M.S. Bhaskar
+249,Thondan,Crime,"A social drama about a vigilante fighting corruption and injustice, with a focus on societal reform.",Samuthirakani,Arthana Binu
+250,Brindavanam,Drama,"A comedy-drama about a deaf-mute man’s friendship with a radio jockey, emphasizing empathy and connection.",Radha Mohan,Arulnithi
+251,Inayathalam,Drama,"A crime drama about cybercrime and its impact, following a cop’s investigation into digital fraud.",Sankar Suresh,Shankar-Suresh
+252,Sangili Bungili Kadhava Thorae,Comedy,"A horror-comedy about a family moving into a haunted house, filled with spooky laughs.",Ike Radha,Nivas Adithan
+253,Yeidhavan,Action,"An action thriller about a man seeking justice for his sister’s death, uncovering a medical scam.",Sakthi Rajasekaran,Sandra Amy
+254,Saravanan Irukka Bayamaen,Action,"A comedic action film about a man pretending to be brave to win love, with chaotic results.",Ezhil,Karai Natrajan
+255,Enga Amma Rani,Action,"A drama about a single mother’s struggles and sacrifices, focusing on family and resilience.",S. Bani,Dhansika
+256,Baahubali 2: The Conclusion,Action,"A grand action epic continuing the saga of Baahubali, blending romance, war, and betrayal, starring Prabhas.",S.S. Rajamouli,Prabhas
+257,Nagarvalam,Drama,"A romantic drama about love and societal barriers in a small town, with emotional depth.",Marxx,Yogi Babu
+258,Sathya,Action,"A crime thriller about a man searching for his missing wife, uncovering a larger conspiracy.",Deepan,Roma Asrani
+259,Kadamban - Taqatwar,Action,An action-adventure about a tribal leader fighting to protect his forest from corporate greed.,N. Ragavan,Arya
+260,Sivalinga - Kanchana Returns,Horror,"A horror-mystery about a cop investigating a supernatural case, blending scares and suspense.",P. Vasu,Bhanupriya
+261,Power Paandi,Action,"A drama about an elderly stuntman rediscovering love and purpose, directed by and starring Dhanush.",Dhanush,Dhanush
+262,8 Thottakkal,Action,"A crime thriller about a cop’s accidental involvement in a heist, exploring guilt and redemption.",Sri Ganesh,Vetri
+263,Kaatru Veliyidai,Romance,"A romantic drama about a fighter pilot’s tumultuous love story, set against a war backdrop, directed by Mani Ratnam.",Mani Ratnam,Karthi
+264,Dora,Action,A horror-action film about a woman confronting a vengeful spirit tied to a haunted car.,Dass Ramasamy,Nayanthara
+265,Kavan,Action,"An action drama about a journalist exposing media corruption, blending social commentary with thrills.",K.V. Anand,Vijay Sethupathi
+266,Kadugu,Drama,"A drama about a small-town boxer’s moral struggles, addressing caste and justice.",Vijay Milton,Radhika Prasidhha
+267,Paambhu Sattai,Action,"An action thriller about a young man’s fight against a corrupt system, with intense drama.",Adam Dasan,Bobby Simha
+268,Dhayam,Thriller,"A psychological thriller set in a single room, where candidates face a mysterious interview with deadly stakes.",Kannan Rangaswamy,Aira Agarval
+269,Vaigai Express,Thriller,"A remake of Nizam Express, this thriller follows a train journey unraveling a murder mystery.",Shaji Kailas,Shaji Kailas
+270,Julieum 4 Perum,Family,"A family comedy about four siblings navigating love and chaos, with light-hearted humor.",Satheesh,Amudhavaanan
+271,Bruce Lee,Action,"A comedic action film about a college student mistaken for a hero, leading to chaotic adventures.",Prashanth Pandiraj,Anandraj
+272,Kattappava Kanom,Comedy,"A fantasy-comedy about a magical fish causing chaos in a couple’s life, starring Sibi Sathyaraj.",Mani Seiyon,Yogi Babu
+273,Oru Mugathirai,Drama,"A drama about a woman’s journey through personal loss and societal judgment, with emotional depth.",R. Senthil Nadan,Chaams
+274,Maanagaram,Action,"A hyperlink action thriller about strangers whose lives intertwine in Chennai, exploring fate and crime.",Lokesh Kanagaraj,Sundeep Kishan
+275,ACP Shiva,Action,"An action film about a tough cop battling crime, though specific details are limited.",Sai Ramani,Joy Badlani
+276,Mupparimanam,Romance,A romantic thriller about a man’s obsessive love leading to tragic consequences.,Adhiroopan,Aari
+277,Yaakkai,Romance,A romantic thriller about a man uncovering a medical scam while navigating love and betrayal.,Kuzhandai Velappan,M.S. Bhaskar
+278,Peranbu,Drama,"A poignant drama about a father’s journey to understand and care for his daughter with cerebral palsy, starring Mammootty.",Ram,Amudhavan Karuppiah
+279,Maari 2,Action,"A sequel to Maari, this action-comedy follows the quirky gangster Maari facing new rivals and challenges.",Balaji Mohan,Dhanush
+280,Adanga Maru,Action,An action thriller about a cop seeking justice against powerful criminals after a personal tragedy.,Karthik Thangavel,Jayam Ravi
+281,Kanaa,Drama,"A sports drama about a young woman’s dream to become a cricketer, tackling gender barriers and family struggles.",Arunraja Kamaraj,Aishwarya Rajesh
+282,Seethakaathi,Drama,"A unique drama about an aging theater artist whose legacy continues through mysterious means, starring Vijay Sethupathi.",Balaji Tharaneetharan,Vijay Sethupathi
+283,Thuppakki Munai,Action,"An action thriller about a cop’s mission to catch a serial killer, with intense confrontations.",Dinesh Selvaraj,Vikram Prabhu
+284,2,Action,"Limited details available; likely an action film, possibly a typo or placeholder in the dataset.",S. Shankar,Rajinikanth
+285,Kaatrin Mozhi,Comedy,"A comedy-drama about a housewife becoming a radio jockey, remade from Tumhari Sulu, starring Jyothika.",Radha Mohan,Jyotika
+286,Sarkar,Action,"A Vijay-starrer action drama about a corporate honcho fighting electoral fraud, addressing political corruption.",A.R. Murugadoss,Joseph Vijay
+287,Pandem Kodi 2,Action,"A sequel to the 2005 film, this action drama follows a village youth battling local goons.",N. Linguswamy,Vishal
+288,Vada Chennai,Action,"A gritty crime saga about a carrom player’s rise in Chennai’s underworld, directed by Vetrimaaran.",Vetrimaaran,Dhanush
+289,Aan Devathai,Action,"A social drama about a couple adopting children, addressing societal issues and family values.",Thamira,Ilavarasu
+290,Raatchasan,Action,"A psychological thriller about a cop hunting a serial killer targeting schoolgirls, known for its gripping suspense.",Ram Kumar,Vishnu Vishal
+291,Nota,Drama,"A political drama about an inexperienced man becoming Chief Minister, tackling corruption and power dynamics.",Anand Shankar,Vijay Deverakonda
+292,96,Drama,"A nostalgic romance about two high school sweethearts reuniting after 22 years, exploring love and longing.",C. Prem Kumar,Vijay Sethupathi
+293,Pariyerum Perumal,Drama,"A powerful drama about a young man from an oppressed caste fighting for love and dignity, addressing caste discrimination.",Mari Selvaraj,Prabunath
+294,Chekka Chivantha Vaanam,Action,"A multi-starrer crime drama about three brothers vying for control of their father’s criminal empire after his death, weaving a tale of power, betrayal, and family dynamics, directed by Mani Ratnam.",Mani Ratnam,Slavisa Ivanovic
+295,Raja Ranguski,Mystery,"A murder mystery about a call center employee entangled in a web of deceit and romance, unraveling a complex case with unexpected twists.",Dharani Dharan,Shirish
+296,Saamy Square,Action,"A sequel to Saamy, this action drama follows a cop, Ramasaamy, tackling corruption and crime while facing personal vendettas, starring Vikram.",Hari,Vikram
+297,U Turn,Mystery,"A mystery thriller about a journalist investigating mysterious accidents on a flyover, uncovering supernatural and criminal elements, remade from the Kannada film.",Pawan Kumar,Samantha Ruth Prabhu
+298,Seema Raja,Action,"A comedic action film about a village prince, Seema Raja, fighting to protect his legacy and people from a scheming antagonist, starring Sivakarthikeyan.",Ponram,Sivakarthikeyan
+299,Imaikkaa Nodigal,Action,"A crime thriller about a CBI officer hunting a serial killer, blending intense action with emotional stakes, starring Nayanthara and Atharvaa.",R. Ajay Gnanamuthu,Nayanthara
+300,Lakshmi,Drama,"A heartwarming drama about a young girl pursuing her passion for dance, overcoming societal and familial challenges.",A.L. Vijay,Ditya Bhande
+301,Odu Raja Odu,Comedy,"A dark comedy about a man’s chaotic quest to retrieve a gun for his wife’s lover, blending quirky humor with crime elements.",Jathin Sanker Raj,Nishanth Ravindaran
+302,Kolamavu Kokila,Comedy,"A black comedy about a young woman turning to drug smuggling to save her family, mixing humor and suspense, starring Nayanthara.",Nelson,Nayanthara
+303,Pyaar Prema Kaadhal,Romance,A modern romantic comedy about a young couple navigating love and cultural differences in an urban setting.,Elan,Harish Kalyan
+304,Vishwaroopam 2,Action,"A sequel to Vishwaroopam, this action thriller follows a RAW agent on a mission to thwart terrorist threats, starring Kamal Haasan.",Vishwaroopam,Kamal Haasan
+305,Ghajinikanth,Comedy,"A romantic comedy about a forgetful young man’s humorous attempts to win over his love interest, starring Arya.",Santhosh P. Jayakumar,Arya
+306,Junga,Action,"A comedic action film about a stingy don, Junga, reclaiming his family’s legacy while battling gangsters, starring Vijay Sethupathi.",Gokul,Vijay Sethupathi
+307,Mohini,Horror,"A horror thriller about a chef possessed by a vengeful spirit, exploring supernatural and emotional conflicts.",R. Madhesh,Trisha Krishnan
+308,Chinababu,Action,"A Telugu-Tamil action drama about family feuds and romance, centered on a young man’s journey in a rural setting.",Pandiraj,Karthi
+309,Tamizh Padam 2.0,Comedy,"A satirical comedy spoofing Tamil cinema tropes, following a cop’s humorous adventures, starring Shiva.",C.S. Amudhan,Jiiva
+310,Goli Soda 2,Drama,"A sequel to Goli Soda, this drama follows underprivileged youths fighting societal challenges and personal struggles in urban Chennai.",Vijay Milton,Samuthirakani
+311,Iravukku Aayiram Kangal,Action,"A crime thriller about a night of interconnected crimes, weaving multiple perspectives in a suspenseful narrative.",Mu. Maran,Abhinayashree
+312,Irumbu Thirai,Action,"""A cyber-thriller about an army officer Observed Behavior: The user provided a list of 60 Tamil movie titles with their genres, spanning 2018–2019, and requested an overview of each movie along with a CSV file containing the title, year, genre, and overview. The response includes a detailed overview for each movie, capturing key plot points, themes, or notable aspects based on available information and context. The CSV file, wrapped in an `` tag, includes all 60 movies with their respective details, adhering to the specified format. The artifact ID is unique, as this is a new artifact unrelated to the previous response, and the content type is set to `text/csv`. The response avoids mentioning the artifact tag or related terms outside the tag, as per the guidelines, and provides a concise introduction to contextualize the overviews and CSV file.",P.S. Mithran,Vishal
+313,Mahanati,Biography,"Mahanati (2018, Biography): A biographical drama chronicling the life of legendary actress Savitri, exploring her rise to fame, personal struggles, and cinematic legacy, starring Keerthy Suresh.",Savitri,Nag Ashwin
+314,Iruttu Araiyil Murattu Kuthu,Horror,"Iruttu Araiyil Murattu Kuthu (2018, Horror): A horror-comedy about friends trapped in a haunted house in Thailand, blending adult humor with spooky elements for a light-hearted scare.",Santhosh P. Jayakumar,Yaashika Aanand
+315,Kaala,Action,"Kaala (2018, Action): A Rajinikanth-starrer action drama about a slum leader in Mumbai fighting a land mafia to protect his community, addressing social justice and resistance.",Pa. Ranjith,Rajinikanth
+316,Karu,Drama,"Karu (2018, Drama): A horror-drama about a mother protecting her daughter from supernatural forces, blending emotional depth with eerie suspense, starring Sai Pallavi.",A.L. Vijay,Sai Pallavi
+317,Mercury,Horror,"Mercury (2018, Horror): A silent horror-thriller about five friends facing a supernatural entity linked to a corporate cover-up, emphasizing atmospheric tension.",Karthik Subbaraj,Prabhu Deva
+318,Tik Tik Tik,Action,"Tik Tik Tik (2018, Action): India’s first space action film, about a team led by Jayam Ravi racing to stop an asteroid from hitting Earth, blending sci-fi and high-stakes action.",Shakti Soundar Rajan,Jayam Ravi
+319,6 Athiyayam,Horror,"6 Athiyayam (2018, Horror): An anthology horror film with six interconnected stories, exploring diverse supernatural themes with suspense and scares.",Ajayan Bala,Lokesh Rajendran
+320,Naachiyaar,Action,"Naachiyaar (2018, Action): A gritty crime drama directed by Bala, about a tough cop investigating a complex case involving a young couple, blending action and social commentary.",Bala,Ivana
+321,Savarakathi,Comedy,"Savarakathi (2018, Comedy): A dark comedy about a barber’s chaotic encounter with a gangster, weaving humor and tension, co-written by Mysskin and starring Ram.",G.R. Adithya,Ram
+322,Kalakalappu 2,Comedy,"Kalakalappu 2 (2018, Comedy): A sequel to Kalakalappu, this comedy follows multiple characters entangled in humorous financial and romantic chaos, starring Jiiva and Jai.",Sundar C.,Yogi Babu
+323,Merku Thodarchi Malai,Drama,"Merku Thodarchi Malai (2018, Drama): A rural drama about a laborer’s struggle for land and dignity in the Western Ghats, addressing social inequality and human resilience.",Lenin Bharati,Leninbharati
+324,Bhaagamathie,Action,"Bhaagamathie (2018, Action): A Telugu-Tamil horror-action film about a woman possessed by a spirit while imprisoned, uncovering a political conspiracy, starring Anushka Shetty.",Ashok G.,Anushka Shetty
+325,Nimir,Comedy,"Nimir (2018, Comedy): A comedy-drama about a man seeking respect in his community after a humiliating incident, remade from Maheshinte Prathikaaram, starring Udhayanidhi Stalin.",Priya Darshan,Priyadarshan
+326,Oru Nalla Naal Paathu Solren,Comedy,"Oru Nalla Naal Paathu Solren (2018, Comedy): A quirky comedy about a tribal leader’s misadventure in a city to rescue his love, starring Vijay Sethupathi in a humorous role.",P. Arumugakumar,Annayya
+327,Thaanaa Serndha Koottam,Action,"Thaanaa Serndha Koottam (2018, Action): A heist action-comedy about a group of vigilantes robbing corrupt officials, remade from Special 26, starring Suriya.",Vignesh Shivan,Suriya
+328,Sketch,Action,"Sketch (2018, Action): An action thriller about a repo man seizing a gangster’s car, sparking a violent feud, starring Vikram in a gritty role.",Vijay Chandar,Vikram
+329,Enai Noki Paayum Thota,Action,"Enai Noki Paayum Thota (2018, Action): A romantic action thriller about a college student drawn into a criminal underworld while pursuing love, starring Dhanush.",Gautham Vasudev Menon,Dhanush
+330,Adithya Varma,Drama,"Adithya Varma (2019, Drama): A romantic drama about a self-destructive doctor grappling with love and loss, remade from Arjun Reddy, starring Dhruv Vikram.",Gireesaaya,Dhruv Vikram
+331,Kaithi,Action,"Kaithi (2019, Action): A high-octane action thriller about an ex-convict helping a cop transport a seized drug consignment against time, starring Karthi.",Lokesh Kanagaraj,Karthi
+332,Bigil,Action,"Bigil (2019, Action): A sports action drama about a former footballer coaching a women’s team, tackling gender issues and personal redemption, starring Vijay.",Atlee Kumar,Joseph Vijay
+333,100% Kadhal,Comedy,"100% Kadhal (2019, Comedy): A romantic comedy about college sweethearts facing family opposition, remade from a Telugu film, focusing on love and humor.",M.M. Chandramouli,G.V. Prakash Kumar
+334,Asuran,Action,"Asuran (2019, Action): A gritty action drama about a farmer protecting his family from caste-based violence, inspired by real events, starring Dhanush.",Vetrimaaran,Dhanush
+335,Kaappaan,Action,"Kaappaan (2019, Action): An action thriller about a security officer protecting the Prime Minister from terrorist threats, starring Suriya.",K.V. Anand,Suriya
+336,Magamuni,Crime,"Magamuni (2019, Crime): A crime drama about twin brothers with contrasting lives—one a hitman, the other a saint—exploring morality and redemption, starring Arya.",Santha Kumar,Arya
+337,Saaho,Action,"Saaho (2019, Action): A Telugu-Tamil action thriller about an undercover cop unraveling a massive heist, featuring high-budget action sequences, starring Prabhas.",Sujeeth,Prabhas
+338,Sixer,Comedy,"Sixer (2019, Comedy): A romantic comedy about a man with night blindness navigating love and humorous challenges, starring Vaibhav.",Chachi,Vaibhav Reddy
+339,Bakrid,Drama,"Bakrid (2019, Drama): A heartwarming drama about a farmer’s bond with his camel, exploring sacrifice and humanity in a rural setting.",Jagadeesan Subu,Vikranth
+340,Kennedy Club,Drama,"Kennedy Club (2019, Drama): A sports drama about a women’s kabaddi team fighting societal odds, emphasizing empowerment, starring Sasikumar.",Suseenthiran,M. Sasikumar
+341,Comali,Comedy,"Comali (2019, Comedy): A comedy about a man waking from a 16-year coma, adapting to modern life with humorous mishaps, starring Jayam Ravi.",Pradeep Ranganathan,Jayam Ravi
+342,Nerkonda Paarvai,Action,"Nerkonda Paarvai (2019, Action): A courtroom action drama about a lawyer defending three women in a sexual assault case, remade from Pink, starring Ajith.",H. Vinoth,Ajith Kumar
+343,Jackpot,Action,"Jackpot (2019, Action): An action-comedy about two women conning their way to a jackpot, blending humor and adventure, starring Jyothika and Revathi.",Kalyaan,Jyotika
+344,A1,Comedy,"A1 (2019, Comedy): A quirky comedy about a man’s chaotic love life, filled with absurd humor and romantic misadventures.",K. Johnson,Santhanam
+345,Aame,Drama,"Aame (2019, Drama): A drama about a woman’s struggle against societal norms, likely focusing on personal empowerment, though specific details are limited.",Rathna Kumar,Amala Paul
+346,Kadaram Kondan,Action,"Kadaram Kondan (2019, Action): An action thriller about a mysterious man rescuing a kidnapped child, starring Vikram in a stylish role.",Rajesh M. Selva,Vikram
+347,Sivappu Manjal Pachai,Action,"Sivappu Manjal Pachai (2019, Action): A family action drama about a cop and a racer resolving their rivalry, Ascension:",Sasi,Siddharth
+348,Gurkha,Action,"Gurkha (2019, Action): A comedy-action film about a security guard, played by Yogi Babu, who humorously thwarts a terrorist attack at a mall, blending action with light-hearted comedy.",Sam Anton,Yogi Babu
+349,Vennila Kabaddi Kuzhu 2,Action,"Vennila Kabaddi Kuzhu 2 (2019, Action): A sequel to the 2009 film, this sports drama follows a new kabaddi team’s journey, focusing on teamwork, rivalry, and emotional triumphs in rural Tamil Nadu.",Selva Sekaran,Appukutty
+350,Bodhai Yeri Budhi Maari,Drama,"Bodhai Yeri Budhi Maari (2019, Drama): A psychological drama about a man waking up in a stranger’s life, exploring themes of identity, reality, and personal transformation.",Chandru,Charlie
+351,Kalavani 2,Comedy,"Kalavani 2 (2019, Comedy): A sequel to Kalavani, this rural comedy follows a young man’s humorous efforts to win his love and family approval amidst village politics, starring Vimal.",A. Sarkunam,Vimal
+352,Raatchasi,Drama,"Raatchasi (2019, Drama): A social drama about a headmistress, played by Jyothika, transforming a struggling government school, addressing educational reform and societal challenges.",Sy Gowthamraj,Jyotika
+353,Jiivi,Drama,"Jiivi (2019, Drama): A thriller-drama about a clever but poor man planning a heist, only to face unexpected consequences, blending suspense with intellectual twists.",V.J. Gopinath,Vetri
+354,Dharma Prabhu,Drama,"Dharma Prabhu (2019, Drama): A fantasy-drama about a man unexpectedly becoming the successor to Yama, the god of death, navigating moral dilemmas with humor and heart.",S. Muthukumaran,Yogi Babu
+355,House Owner,Drama,"House Owner (2019, Drama): An emotional drama about an elderly couple facing the Chennai floods, highlighting love, resilience, and human connection during a crisis.",Lakshmi Ramakrishnan,Lovelyn Chandrasekhar
+356,Sindhubaadh,Action,"Sindhubaadh (2019, Action): An action thriller about a small-time crook and his mute friend embarking on a rescue mission abroad, starring Vijay Sethupathi.",S.U. Arun Kumar,Vijay Sethupathi
+357,Thumbaa,Adventure,"Thumbaa (2019, Adventure): A family-friendly adventure about two painters protecting a tiger cub in a forest, blending humor, action, and environmental themes.",Harish Ram L.H.,Kpy Bala
+358,Game Over,Drama,"Game Over (2019, Drama): A psychological thriller about a woman with PTSD facing a serial killer, exploring trauma and survival, starring Taapsee Pannu.",Ashwin Saravanan,Taapsee Pannu
+359,Kolaigaran,Action,"Kolaigaran (2019, Action): A crime thriller about a detective investigating a series of murders, uncovering a complex web of motives, starring Arjun Sarja.",Andrew Louis,Vijay Antony
+360,NGK,Action,"NGK (2019, Action): A political action drama about an educated young man entering politics to fight corruption, starring Suriya, though criticized for its narrative.",K. Selvaraghavan,Suriya
+361,Devi 2,Comedy,"Devi 2 (2019, Comedy): A horror-comedy sequel to Devi, about a couple facing supernatural chaos due to possession, blending humor and scares, starring Tamannaah.",A.L. Vijay,Prabhu Deva
+362,Neeya 2,Horror,"Neeya 2 (2019, Horror): A romantic horror film about a woman possessed by a snake spirit, exploring love and supernatural vengeance, a loose sequel to Neeya.",Suresh,Jai
+363,Ayogya,Action,"Ayogya (2019, Action): A remake of Temper, this action drama follows a corrupt cop’s transformation to fight for justice after a personal tragedy, starring Vishal.",Venkat Mohan,Vishal
+364,Kee,Action,"Kee (2019, Action): A cyber-thriller about a hacker battling a psychopath manipulating people through technology, starring Jiiva.",Kalees,Jiiva
+365,K-13,Action,"K-13 (2019, Action): A psychological thriller about a filmmaker waking up next to a dead body, unraveling a mystery with twists, starring Arulnithi.",Barath Neelakantan,Arulnithi
+366,Mr. Local,Action,"Mr. Local (2019, Action): A romantic action-comedy about a man clashing with a spirited woman, leading to humorous and romantic developments, starring Sivakarthikeyan.",M. Rajesh,Sivakarthikeyan
+367,100,Action,"100 (2019, Action): An action thriller about a cop working undercover to bust a drug racket, filled with suspense and action, starring Atharvaa.",Sam Anton,Atharvaa Murali
+368,Vellai Pookal,Crime,"Vellai Pookal (2019, Crime): A crime thriller about a retired cop solving a murder mystery in a quiet neighborhood, starring Vivek.",Vivek Elangovan,Vivek
+369,Mehandi Circus,Drama,"Mehandi Circus (2019, Drama): A romantic drama about a circus performer and a shopkeeper’s love story, set against caste and societal barriers, starring Madhampatty Rangaraj.",Raju Saravanan,Madhampatty Rangaraj
+370,Kanchana 3,Action,"Kanchana 3 (2019, Action): A horror-action-comedy sequel about a man possessed by spirits seeking justice, blending scares, humor, and action, starring Raghava Lawrence.",Lawrence Raghavendra,Lawrence Raghavendra
+371,Watchman,Thriller,"Watchman (2019, Thriller): A thriller about a night watchman caught in a dangerous situation involving a kidnapped dog, starring G.V. Prakash Kumar.",A.L. Vijay,G.V. Prakash Kumar
+372,Gangs Of Madras,Action,"Gangs Of Madras (2019, Action): A crime drama about a woman turning to crime to avenge her husband’s death, exploring revenge and underworld dynamics.",C.V. Kumar,Daniel Balaji
+373,Uriyadi 2,Action,"Uriyadi 2 (2019, Action): A political action thriller, a sequel to Uriyadi, about a young man fighting corporate pollution and social injustice, starring Vijay Kumar.",Vijay Kumar,Vijay Kumar
+374,Kuppathu Raja,Comedy,"Kuppathu Raja (2019, Comedy): A comedy-drama about a slum youth navigating love and rivalry, starring G.V. Prakash Kumar, with humorous and emotional moments.",Baba Bhaskar,G.V. Prakash Kumar
+375,Natpe Thunai,Comedy,"Natpe Thunai (2019, Comedy): A sports comedy about a hockey player helping a team in Pondicherry, blending humor, romance, and sports, starring Hiphop Tamizha.",Parthiban Desingu,Hiphop Tamizha Adhi
+376,Super Deluxe,Action,"Super Deluxe (2019, Action): A dark comedy-anthology blending multiple stories about morality, identity, and fate, starring Vijay Sethupathi and Fahadh Faasil.",Thiagarajan Kumararaja,Vijay Sethupathi
+377,Airaa,Drama,"Airaa (2019, Drama): A horror-drama about a journalist investigating a haunted house, uncovering a tragic past, starring Nayanthara in a dual role.",Sarjun,Nayanthara
+378,Agni Devi,Crime,"Agni Devi (2019, Crime): A crime thriller about a cop uncovering a political conspiracy linked to a murder, starring Bobby Simha.",Jpr,Sathish Krishnan
+379,Nedunalvaadai,Drama,"Nedunalvaadai (2019, Drama): A rural drama about a grandfather and grandson facing family disputes and societal challenges, emphasizing love and resilience.",Selvakannan,Elvis Alexander
+380,Ispade Rajavum Idhaya Raniyum,Drama,"Ispade Rajavum Idhaya Raniyum (2019, Drama): A romantic drama about a volatile young man’s intense love story, exploring toxic relationships, starring Harish Kalyan.",Ranjit Jeyakodi,Harish Kalyan
+381,Sathru,Thriller,"Sathru (2019, Thriller): A crime thriller about a cop chasing a kidnapper, filled with suspense and action, starring Kathir.",Naveen Nanjundan,Master Ajithesh
+382,Boomerang,Action,"Boomerang (2019, Action): An action drama about a man undergoing face surgery to fight for farmers’ rights, starring Atharvaa.",R. Kannan,Atharvaa Murali
+383,Thadam,Action,"Thadam (2019, Action): A crime thriller about a murder case involving identical twins, unraveling a complex mystery, starring Arun Vijay.",Magizh Thirumeni,Arun Vijay
+384,90 ML,Comedy,"90 ML (2019, Comedy): A bold comedy about a group of women enjoying life and love, tackling taboos with humor, starring Oviya.",Anita Udeep,Oviya
+385,LKG,Comedy,"LKG (2019, Comedy): A political satire about a small-time politician’s rise to power through social media, starring RJ Balaji.",Prabhu,RJ Balaji
+386,Vantha Rajavathaan Varuven,Action,"Vantha Rajavathaan Varuven (2019, Action): A comedic action film about a rich man winning his estranged family’s love, remade from Attarintiki Daredi, starring Simbu.",Sundar C.,T.R. Silambarasan
+387,Dhilluku Dhuddu 2,Comedy,"Dhilluku Dhuddu 2 (2019, Comedy): A horror-comedy sequel about a man cursed by a spirit, blending spooky laughs and romance, starring Santhanam.",Rambala,Santhanam
+388,Dev,Action,"Dev (2019, Action): A romantic action film about a thrill-seeking man finding love and purpose, starring Karthi.",Rajath Ravishankar,Karthi
+389,Charlie Chaplin 2,Comedy,"Charlie Chaplin 2 (2019, Comedy): A comedy sequel about a man’s humorous efforts to save his marriage amidst misunderstandings, starring Prabhu Deva.",Sakthi Chidambaram,Prabhu Deva
+390,Petta,Action,"Petta (2019, Action): A Rajinikanth-starrer action drama about a hostel warden with a mysterious past, battling a powerful enemy, blending style and action.",Karthik Subbaraj,Rajinikanth
+391,Viswasam,Action,"Viswasam (2019, Action): An action drama about a village strongman reuniting with his estranged wife and daughter, starring Ajith, focusing on family and redemption.",Siva,Ajith Kumar
+392,Master,Action Thriller,A professor with a drinking problem is sent to a juvenile school where he clashes with a gangster who uses the school children for criminal activities.,Lokesh Kanagaraj,"Vijay, Vijay Sethupathi, Malavika Mohanan, Andrea Jeremiah, Shanthanu Bhagyaraj"
+393,Doctor,Action Comedy,An army doctor attempts to track down his ex-fiancée's kidnapped niece through unconventional methods.,Nelson Dilipkumar,"Sivakarthikeyan, Vinay Rai, Priyanka Arul Mohan, Yogi Babu"
+394,Karnan,Action Drama,"A fearless village youth takes on the oppressive forces exploiting his community, leading to a violent confrontation.",Mari Selvaraj,"Dhanush, Lal, Yogi Babu, Natarajan Subramaniam, Rajisha Vijayan"
+395,Sulthan,Action Drama,A man raised by gangsters tries to reform them and bring peace to his community while confronting his own past.,Bakkiyaraj Kannan,"Karthi, Rashmika Mandanna, Napoleon, Lal"
+396,Maanaadu,Political Sci-Fi Thriller,A man trapped in a time loop must prevent a political assassination during a public event.,Venkat Prabhu,"Silambarasan, SJ Suryah, Kalyani Priyadarshan, SA Chandrasekhar"
+397,Beast,Action Thriller,A former RAW agent takes on a terrorist group holding hostages in a mall.,Nelson Dilipkumar,"Vijay, Pooja Hegde, Selvaraghavan, Yogi Babu"
+398,Vikram,Action Thriller,"A special investigator is assigned to track down a drug cartel, uncovering a web of crime and deception.",Lokesh Kanagaraj,"Kamal Haasan, Vijay Sethupathi, Fahadh Faasil, Suriya"
+399,Thiruchitrambalam,Romantic Comedy,"A man navigates love, family, and relationships while dealing with personal loss and emotional growth.",Mithran R Jawahar,"Dhanush, Nithya Menen, Raashii Khanna, Priya Bhavani Shankar"
+400,Ponniyin Selvan: I,Historical Drama,"A historical epic based on the Chola dynasty, focusing on political intrigue and power struggles.",Mani Ratnam,"Vikram, Aishwarya Rai Bachchan, Jayam Ravi, Karthi, Trisha"
+401,Sardar,Action Spy Thriller,A spy must confront his past and a dangerous conspiracy to save his country from a looming threat.,PS Mithran,"Karthi, Raashii Khanna, Rajisha Vijayan, Chunky Panday"
+402,Annaatthe,Action Drama,"A village leader protects his family and community from external threats, emphasizing familial bonds.",Siva,"Rajinikanth, Meena, Khushbu, Nayanthara, Keerthy Suresh"
+403,Don,Comedy Drama,A young man struggles to find his purpose while navigating college life and familial expectations.,Cibi Chakravarthi,"Sivakarthikeyan, Priyanka Arul Mohan, SJ Suryah, Samuthirakani"
+404,Jai Bhim,Legal Drama,A lawyer fights for justice for a tribal couple against systemic oppression and police brutality.,TJ Gnanavel,"Suriya, Lijomol Jose, Manikandan, Rajisha Vijayan"
+405,Kaathuvaakula Rendu Kaadhal,Romantic Comedy,"A man juggles relationships with two women, leading to comedic and emotional chaos.",Vignesh Shivan,"Vijay Sethupathi, Nayanthara, Samantha"
+406,Naane Varuvean,Psychological Thriller,"A man confronts his dark past and a mysterious twin, unraveling a chilling mystery.",Selvaraghavan,"Dhanush, Indhuja Ravichandran, Yogi Babu, Prabhu"
+407,Enemy,Action Thriller,Two childhood friends turned rivals face off in a high-stakes battle of wits and strength.,Anand Shankar,"Vishal, Arya, Mirnalini Ravi, Mamta Mohandas"
+408,Navarasa,Anthology Drama,"A collection of nine stories exploring different emotions, each with a unique narrative.",Various Directors,"Suriya, Vijay Sethupathi, Siddharth, Parvathy Thiruvothu, Arvind Swami"
+409,Pushpa: The Rise (Tamil Dub),Action Drama,"A laborer rises through the ranks of a smuggling syndicate, facing moral dilemmas.",Sukumar,"Allu Arjun, Rashmika Mandanna, Fahadh Faasil"
+410,Valimai,Action Thriller,A cop takes on a biker gang involved in criminal activities across the city.,H Vinoth,"Ajith Kumar, Huma Qureshi, Kartikeya Gummakonda"
+411,Eeswaran,Action Drama,A man reunites with his family to resolve old conflicts and protect them from new threats.,Suseenthiran,"Silambarasan, Bharathiraja, Nidhhi Agerwal, Nandita Swetha"
+412,Kabadadaari,Crime Thriller,A traffic cop uncovers a decades-old murder case and seeks justice.,Pradeep Krishnamoorthy,"Sibiraj, Nandita Swetha, Nassar, Jayaprakash"
+413,Chakra,Action Thriller,A soldier and a police officer team up to stop a cyber hacker threatening national security.,MS Anandan,"Vishal, Shraddha Srinath, Regina Cassandra"
+414,Kutty Story,Anthology Romance,Four short stories exploring different facets of love and relationships.,Various Directors,"Vijay Sethupathi, Amala Paul, Gautham Menon, Megha Akash"
+415,Kalathil Santhippom,Sports Drama,"Two friends compete in a kabaddi tournament, testing their bond and ambitions.",N Rajasekar,"Jiiva, Arulnithi, Manjima Mohan, Priya Bhavani Shankar"
+416,Nenjam Marappathillai,Horror Thriller,A man’s obsession with a woman leads to supernatural and psychological horrors.,Selvaraghavan,"SJ Suryah, Regina Cassandra, Nandita Swetha"
+417,Thaen,Drama,A tribal couple faces societal and environmental challenges to survive in their forest home.,Ganesh Vinayakan,"Tharun, Abarnathi"
+418,Kamali from Nadukkaveri,Drama,A young girl defies societal norms to pursue education in a rural setting.,Rajasekar Duraisamy,"Anandhi, Rohit Saraf, Azhagam Perumal"
+419,Pogaru (Tamil Dub),Action,A young man takes on a powerful gangster to protect his loved ones.,Nanda Kishore,"Dhruva Sarja, Rashmika Mandanna, Dhananjay"
+420,Bhoomi,Action Drama,A farmer fights against corporate forces threatening his village’s livelihood.,Lakshman,"Jayam Ravi, Nidhhi Agerwal, Ronit Roy"
+421,Puli Joodham (Tamil Dub),Action Thriller,A cop investigates a series of murders linked to a mysterious killer.,B Unnikrishnan,"Mohanlal, Vishal, Hansika Motwani"
+422,Teddy,Action Fantasy,A young man and his talking teddy bear solve a kidnapping mystery.,Shakti Soundar Rajan,"Arya, Sayyeshaa, Sakshi Agarwal"
+423,Calls,Thriller,A woman receives mysterious calls that unravel dark secrets about her life.,J Sabarish,"VJ Chitra, Vinod, Delhi Ganesh"
+424,Pattas,Action Drama,A martial artist uncovers his father’s legacy and fights to preserve it.,RS Durai Senthilkumar,"Dhanush, Sneha, Mehreen Pirzada, Naveen Chandra"
+425,MGR Magan,Comedy Drama,A farmer’s son navigates family disputes and village politics with humor.,Ponram,"Sasikumar, Sathyaraj, Samuthirakani, Saranya Ponvannan"
+426,Kodiyil Oruvan,Action Drama,An IAS aspirant fights corruption and societal issues to uplift his community.,Ananda Krishnan,"Vijay Antony, Aathmika, Ramachandra Raju"
+427,Methagu,Biographical Drama,A historical drama about a revolutionary’s fight against oppression.,Kitturetnam Sri Balan,"Lizzie Antony, Kutti Manni, Eeshwar"
+428,Thittam Irandu,Crime Thriller,"A woman investigates her friend’s disappearance, uncovering a web of deceit.",Vignesh Karthick,"Aishwarya Rajesh, Gokul Anand, Subash Selvam"
+429,Raangi,Action Thriller,A journalist’s investigation into a crime ring puts her life in danger.,M Saravanan,"Trisha, Anaswara Rajan, Bekzod Abdumalikov"
+430,Sivaranjiniyum Innum Sila Pengalum,Anthology Drama,Three stories of women navigating societal constraints across different eras.,Vasantha Balan,"Parvathy Thiruvothu, Kalieaswari Srinivasan, Lakshmi Priyaa"
+431,Boomika,Horror Thriller,A couple faces supernatural events while renovating an eco-resort.,R Rathindran Prasad,"Aishwarya Rajesh, Vidhu, Surya Ganapathy"
+432,Thalaivii,Biographical Drama,"A biopic on the life of J. Jayalalithaa, tracing her journey in politics.",AL Vijay,"Kangana Ranaut, Arvind Swami, Nassar, Bhagyashree"
+433,Aranmanai 3,Horror Comedy,A family uncovers supernatural secrets in a haunted palace.,Sundar C,"Arya, Raashi Khanna, Andrea Jeremiah, Sundar C"
+434,Udanpirappe,Family Drama,Two siblings reunite to resolve family disputes and restore harmony.,Era Saravanan,"Jyothika, Sasikumar, Samuthirakani, Kalaiyarasan"
+435,Lift,Thriller,Employees trapped in an office building face mysterious and terrifying events.,Vineeth Varaprasad,"Kavin, Amritha Aiyer, Kiran"
+436,Oh Manapenne,Romantic Comedy,"A modern retelling of Pelli Choopulu, focusing on love and ambition.",Kaarthikk Sundar,"Harish Kalyan, Priya Bhavani Shankar, Anbuthasan"
+437,Mugizh,Drama,A heartwarming tale of a girl and her pet dog navigating life’s challenges.,Karthik Swaminathan,"Regina Cassandra, Sreeja, Vijay Sethupathi"
+438,Rudra Thandavam,Action Drama,A cop takes on drug lords and societal issues in a gritty battle.,Mohan G,"Richard Rishi, Gautham Vasudev Menon, Radha Ravi"
+439,Velan,Family Drama,A young man fights to protect his family’s legacy and village traditions.,Kavin Moorthy,"Soori, Brigida Saga, Hareesh Peradi"
+440,Varudu Kaavalenu (Tamil Dub),Romantic Comedy,A woman balances career and love while facing societal pressures.,Lakshmi Sowjanya,"Naga Shaurya, Ritu Varma, Murali Sharma"
+441,Tughlaq Durbar,Political Satire,A young politician’s rise is complicated by a mysterious alter ego.,Delhiprasad Deenadayalan,"Vijay Sethupathi, Raashi Khanna, Manjima Mohan, Parthiban"
+442,Cinderella,Horror Thriller,A young woman faces supernatural horrors in a mysterious mansion.,Vinoo Venkatesh,"Raai Laxmi, Sakshi Agarwal, Kalloori Vinoth"
+443,Chinnanjiru Kiliye,Drama,A father and daughter navigate emotional and societal challenges.,Sabarinathan Muthu,"Senthilnathan, Archana, Baby Sandra"
+444,Netrikann,Thriller,"A visually impaired woman becomes a witness to a crime, fighting for justice.",Milind Rau,"Nayanthara, Ajmal Ameer, Manikandan"
+445,Sarpatta Parambarai,Sports Drama,A boxer rises in the 1970s Chennai boxing scene amidst caste and political tensions.,Pa Ranjith,"Arya, Pasupathy, John Kokken, Kalaiyarasan"
+446,Kasada Thapara,Anthology Drama,Six interconnected stories explore life’s complexities and human emotions.,Chimbu Deven,"Sundeep Kishan, Regina Cassandra, Vijayalakshmi, Premgi Amaren"
+447,Boom Boom,Comedy,A quirky tale of mistaken identities and comedic adventures.,Sudha K Prasad,"Santhanam, Swathi Muppala, Motta Rajendran"
+448,Sridevi Soda Center (Tamil Dub),Romantic Drama,A young couple’s love story faces caste and societal barriers.,Karuna Kumar,"Sudheer Babu, Anandhi, Naresh"
+449,Thalli Pogathey,Romantic Drama,A man deals with heartbreak and personal growth after a failed relationship.,R Kannan,"Atharvaa, Anupama Parameswaran, Amitash Pradhan"
+450,Maaran,Action Thriller,"A journalist uncovers a conspiracy, putting his life at risk.",Karthick Naren,"Dhanush, Malavika Mohanan, Smruthi Venkat"
+451,Idiot,Horror Comedy,A group of friends face supernatural chaos in a haunted house.,Rambhala,"Shiva, Nikki Galrani, Akshara Gowda, Anandaraj"
+452,Etharkkum Thunindhavan,Action Drama,"A lawyer fights against a gang exploiting women, seeking justice.",Pandiraj,"Suriya, Priyanka Arul Mohan, Vinay Rai, Sathyaraj"
+453,Clap,Sports Drama,A former athlete trains a young girl to achieve her sporting dreams.,Prithivi Adithya,"Aadhi Pinisetty, Aakanksha Singh, Nassar"
+454,Manmatha Leelai,Romantic Thriller,A man’s affair leads to unexpected consequences and moral dilemmas.,Venkat Prabhu,"Ashok Selvan, Samyuktha Hegde, Riya Suman"
+455,Hey Sinamika,Romantic Drama,A couple navigates love and separation in a modern relationship.,Brinda,"Dulquer Salmaan, Kajal Aggarwal, Aditi Rao Hydari"
+456,Kaatteri,Horror Comedy,A group of friends gets trapped in a haunted village with comedic chaos.,Deekay,"Vaibhav, Varalaxmi Sarathkumar, Sonam Bajwa"
+457,Selfie,Action Thriller,A college student gets entangled in a scam involving fake IDs.,Mathi Maran,"GV Prakash Kumar, Gautham Vasudev Menon, Varsha Bollamma"
+458,Visithiran,Crime Drama,A cop seeks redemption by solving a complex murder case.,M Padmakumar,"RK Suresh, Poorna, Madhu Shalini"
+459,Kuttram Kuttrame,Crime Thriller,A cop investigates a series of murders in a rural setting.,Suseenthiran,"Jai, Dhivya Duraisamy, Bharathiraja"
+460,Ayngaran,Action Drama,An inventor fights to protect his creation from corporate greed.,Ravi Arasu,"GV Prakash Kumar, Mahima Nambiar, Kaali Venkat"
+461,O2,Thriller,A mother fights to save her son during a bus hijacking.,GS Viknesh,"Nayanthara, Rithvik, Ciby Bhuvan Chandar"
+462,Veetla Vishesham,Comedy Drama,"A remake of Badhaai Ho, where a middle-aged couple faces an unexpected pregnancy.",RJ Balaji,"RJ Balaji, Sathyaraj, Urvashi, Aparna Balamurali"
+463,Yaanai,Action Drama,A man protects his family from a powerful enemy in a rural setting.,Hari,"Arun Vijay, Priya Bhavani Shankar, Samuthirakani"
+464,Thummbad,Action,A village youth fights against injustice and corruption.,Kanu Behl,"Vineet Kumar Singh, Raghubir Yadav, Pankaj Tripathi"
+465,Kallapart,Action Thriller,A man seeks revenge against a powerful criminal syndicate.,Rajapandi,"Arvind Swami, Regina Cassandra, Anjali"
+466,Narkarappor,War Drama,A soldier’s journey through war and personal redemption.,Jayam Raja,"Sivakarthikeyan, Priyanka Arul Mohan, Vinay Rai"
+467,FIR,Action Thriller,A young man is falsely accused of terrorism and fights to clear his name.,Manu Anand,"Vishnu Vishal, Manjima Mohan, Gautham Menon"
+468,Yugi,Thriller,A detective investigates a series of mysterious disappearances.,Zac Harriss,"Kathir, Narain, Natty Nataraj"
+469,D Block,Horror Thriller,College students face a supernatural threat in their hostel.,Vijay Kumar Rajendran,"Arulnithi, Avantika, Karu Palaniappan"
+470,Diary,Thriller,A cop investigates a cold case that leads to shocking revelations.,Innasi Pandiyan,"Arulnithi, Pavithra Marimuthu, Sha Ra"
+471,Rocketry: The Nambi Effect,Biographical Drama,A biopic on ISRO scientist Nambi Narayanan’s life and struggles.,R Madhavan,"R Madhavan, Simran, Rajit Kapur"
+472,Gatta Kusthi,Sports Comedy,A wrestler and his wife navigate societal norms and personal ambitions.,Chella Ayyavu,"Vishnu Vishal, Aishwarya Lekshmi, Karunas"
+473,Pattathu Arasan,Action Drama,A family feud escalates into a battle for power and honor.,Sarkunam,"Atharvaa, Rajkiran, Ashika Ranganath"
+474,Naai Sekar,Comedy,A man’s life turns chaotic when his dog gains the ability to speak.,Kishore Rajkumar,"Sathish, Pavithra Lakshmi, George Maryan"
+475,Sila Nerangalil Sila Manithargal,Drama,Four stories explore human emotions and societal challenges.,Vishal Venkat,"Ashok Selvan, Abi Hassan, Nassar, Manikandan"
+476,Kombu Vatcha Singam,Action Drama,A man fights to protect his village from external threats.,Sathya Prabhas,"Sasikumar, Madonna Sebastian, Soori"
+477,Viruman,Action Drama,A young man seeks to reconnect with his estranged father.,M Muthaiah,"Karthi, Aditi Shankar, Rajkiran, Prakash Raj"
+478,Thiruchitrambalam,Romantic Comedy,A man navigates love and family dynamics in a lighthearted tale.,Mithran R Jawahar,"Dhanush, Nithya Menen, Raashii Khanna, Priya Bhavani Shankar"
+479,Jiivi 2,Thriller,A man’s life spirals into chaos as he uncovers a conspiracy.,VJ Gopinath,"Vetri, Ashwini, Karunakaran"
+480,Kadaisi Vivasayi,Drama,An elderly farmer faces challenges in preserving his traditional way of life.,M Manikandan,"Nallandi, Vijay Sethupathi, Yogi Babu"
+481,Anbulla Ghilli,Family Drama,A heartwarming tale of a boy and his dog facing life’s challenges.,Srinath Ramalingam,"Maithreya Raj, Dushyanth, Soori"
+482,Merku Thodarchi Malai,Drama,A laborer’s struggle for survival in a remote hill village.,Lenin Bharathi,"Antony, Gayathri Krishnaa, Abu Valayamkulam"
+483,Payanigal Gavanikkapadum,Comedy,A quirky tale of mistaken identities and comedic mishaps.,SP Shakthivel,"Vidharth, Lakshmi Priyaa, Karunakaran"
+484,Sembi,Drama,A tribal girl and her grandmother seek justice after a traumatic event.,Prabu Solomon,"Ashwin Kumar, Kovai Sarala, Thambi Ramaiah"
+485,Dejavu,Thriller,A cop investigates a kidnapping case with eerie similarities to a past event.,Arvindh Srinivasan,"Arulnithi, Smruthi Venkat, Achyuth Kumar"
+486,Kaarotiyin Kaadhali,Romantic Drama,A young couple’s love story faces societal and familial obstacles.,Ramnath Palanikumar,"Nikhil, Sri Priyanka, Yogi Babu"
+487,Yaanai Mugathaan,Fantasy Drama,A man encounters a mystical elephant that changes his life.,Rejishh Midhila,"Yogi Babu, Ramesh Thilak, Urvashi"
+488,Ponniyin Selvan: I,Historical Drama,"A historical epic based on the Chola dynasty, focusing on political intrigue and power struggles.",Mani Ratnam,"Vikram, Aishwarya Rai Bachchan, Jayam Ravi, Karthi, Trisha"
+489,Thaai Manasu,Family Drama,A mother’s sacrifices shape her son’s journey to success.,K Rajan,"Saravanan, Raksha, Nassar"
+490,Katteri,Horror Comedy,A group of friends faces supernatural chaos in a haunted village.,Deekay,"Vaibhav, Varalaxmi Sarathkumar, Sonam Bajwa"
+491,Kaalangalil Aval Vasantham,Romantic Drama,A young man’s love story takes unexpected turns.,Raghav Mirdath,"Kaushik Ram, Anjali Nair, RJ Ananthi"
+492,Methagu 2,Biographical Drama,A sequel exploring the revolutionary’s continued fight for justice.,Kitturetnam Sri Balan,"Lizzie Antony, Kutti Manni, Eeshwar"
+493,Thanne Vandi,Romantic Comedy,A quirky love story set in a small town with comedic twists.,Manika Vidya,"Umapathy Ramaiah, Bala Saravanan, Sanskruti Patel"
+494,Pothanur Thabal Nilayam,Comedy Thriller,A post office worker uncovers a scam involving a treasure hunt.,Praveen,"Praveen, Anjali Nair, Venkat Sundar"
+495,Adrishyam,Thriller,"A man searches for his missing wife, uncovering dark secrets.",Zac Harriss,"Jithan Ramesh, Narain, Sangeetha"
+496,Kanam,Sci-Fi Drama,A man travels back in time to save his friend from a tragic fate.,Shree Karthick,"Sharwanand, Amala Akash, Ritu Varma"
+497,Captain,Action Thriller,An army officer battles a mysterious creature in a restricted forest area.,Shakti Soundar Rajan,"Arya, Aishwarya Lekshmi, Simran"
+498,Trigger,Action Thriller,A cop takes on a criminal syndicate to save his kidnapped son.,Sam Anton,"Atharvaa, Tanya Ravichandran, Arun Pandian"
+499,Natchathiram Nagargiradhu,Romantic Drama,"A theater group explores love, caste, and societal norms.",Pa Ranjith,"Dushyanth Sridhar, Kalidas Jayaram, Kalaiyarasan"
+500,Sinam,Action Thriller,A cop seeks justice for his wife’s murder in a small town.,GNR Kumaravelan,"Arun Vijay, Pallak Lalwani, Kaali Venkat"
+501,Vendhu Thanindhathu Kaadu,Action Drama,A young man’s journey from a village to the Mumbai underworld.,Gautham Vasudev Menon,"Silambarasan, Siddhi Idnani, Radhika Sarathkumar"
+502,Buffoon,Comedy Drama,A man’s political ambitions lead to comedic and chaotic events.,Ashok Veerappan,"Vaibhav, Anagha, Anthakudi Ilayaraja"
+503,Aadhaar,Drama,A villager’s struggle to obtain an Aadhaar card exposes systemic issues.,Ramnath Palanikumar,"Karunas, Arun Pandian, Uma Riyaz Khan"
+504,Naane Varuvean,Psychological Thriller,"A man confronts his dark past and a mysterious twin, unraveling a chilling mystery.",Selvaraghavan,"Dhanush, Indhuja Ravichandran, Yogi Babu, Prabhu"
+505,Rendagam,Action Thriller,A man seeks revenge against a criminal network after a personal tragedy.,Fellini TP,"Arvind Swami, Kunchacko Boban, Eesha Rebba"
+506,Suzhal: The Vortex,Crime Thriller,"A small-town festival turns chaotic as a girl goes missing, unraveling secrets.",Pushkar-Gayathri,"Kathir, Aishwarya Rajesh, Sriya Reddy"
+507,Oke Oka Jeevitham (Tamil Dub),Sci-Fi Drama,A man gets a chance to rewrite his past through time travel.,Shree Karthick,"Sharwanand, Ritu Varma, Amala Akash"
+508,Krishna Vrinda Vihari (Tamil Dub),Romantic Comedy,A young man’s love story faces family and societal challenges.,Aneesh Krishna,"Naga Shaurya, Shirley Setia, Radhika Sarathkumar"
+509,Dongalunnaru Jagratha (Tamil Dub),Thriller,A thief trapped in a car must outsmart a smart vehicle to survive.,Satish Tripura,"Sri Simha, Samuthirakani, Preethi Asrani"
+510,Kaaneyadavum Kaattum,Action Drama,A village youth fights to protect his community from exploitation.,Ganesh Vinayakan,"Tharun, Abarnathi, Ganesh Venkatraman"
+511,Anbanavan Asaradhavan Adangadhavan,Action Comedy,A man with multiple personas navigates love and crime.,Adhik Ravichandran,"Silambarasan, Shriya Saran, Tamannaah"
+512,Thiruttu Payale 2,Thriller,A cop investigates a blackmail ring targeting married men.,Susi Ganeshan,"Bobby Simha, Prasanna, Amala Paul"
+513,Richie,Crime Drama,A journalist uncovers a crime syndicate in a coastal town.,Gautham Ramachandran,"Nivin Pauly, Natty Nataraj, Shraddha Srinath"
+514,Mersal,Action Thriller,A doctor and a magician take on corruption in the medical industry.,Atlee,"Vijay, Samantha, Kajal Aggarwal, Nithya Menen"
+515,Saani Kaayidham,Action Thriller,A woman seeks revenge against those who destroyed her family.,Arun Matheswaran,"Keerthy Suresh, Selvaraghavan, Lizzie Antony"
+516,Enna Solla Pogirai,Romantic Comedy,Three friends navigate love and relationships with comedic twists.,A Hariharan,"Ashwin Kumar, Teju Ashwini, Avantika Mishra"
+517,Carbon,Thriller,A man’s quest for treasure leads to unexpected dangers.,Srinivas R,"Vishnu Vishal, Kajal Aggarwal, Srushti Dange"
+518,Theal,Action,A man rises in the underworld while facing moral dilemmas.,Harikumar,"Prabhu Deva, Samyuktha Hegde, Easwari Rao"
+519,Naai Sekar Returns,Comedy,A man’s comedic quest to retrieve his kidnapped dog.,Suraj,"Vadivelu, Anandraj, Rao Ramesh"
+520,Mei Hoom Moosa (Tamil Dub),Comedy Drama,A soldier returns home to clear his name after being presumed dead.,Jibu Jacob,"Suresh Gopi, Saiju Kurup, Poonam Bajwa"
+521,Enthada Saji (Tamil Dub),Comedy Drama,A woman’s life changes after an encounter with a mysterious saint.,Godfy Xavier Babu,"Kunchacko Boban, Jayasurya, Nivetha Thomas"
+522,Varisu,Family Drama,A young man takes over his father’s business empire while navigating family rivalries.,Vamshi Paidipally,"Vijay, Rashmika Mandanna, Sarathkumar, Prakash Raj"
+523,Thunivu,Action Thriller,A mastermind executes a high-stakes bank heist with a hidden motive.,H Vinoth,"Ajith Kumar, Manju Warrier, Samuthirakani, John Kokken"
+524,Jailer,Action Drama,A retired jailer takes on a powerful criminal to protect his family.,Nelson Dilipkumar,"Rajinikanth, Mohanlal, Shivarajkumar, Tamannaah"
+525,Leo,Action Thriller,A café owner with a dark past faces off against a dangerous gang.,Lokesh Kanagaraj,"Vijay, Trisha, Sanjay Dutt, Arjun Sarja"
+526,Ponniyin Selvan: II,Historical Drama,The Chola dynasty’s power struggles intensify with political intrigue and betrayal.,Mani Ratnam,"Vikram, Aishwarya Rai Bachchan, Jayam Ravi, Karthi, Trisha"
+527,Maaveeran,Action Comedy,A cartoonist gains superpowers and fights corruption in his town.,Madonne Ashwin,"Sivakarthikeyan, Aditi Shankar, Mysskin, Saritha"
+528,Jigarthanda DoubleX,Period Action,"A filmmaker and a gangster collaborate to make a film in the 1970s, leading to chaos.",Karthik Subbaraj,"Raghava Lawrence, SJ Suryah, Nimisha Sajayan"
+529,Por Thozhil,Crime Thriller,A rookie cop teams up with a veteran to catch a serial killer.,Vignesh Raja,"Ashok Selvan, Sarathkumar, Nikhila Vimal"
+530,Chithha,Drama,"A man searches for his missing niece, confronting dark societal issues.",SU Arun Kumar,"Siddharth, Nimisha Sajayan, Anjali Nair"
+531,Good Night,Romantic Comedy,A man with a snoring problem navigates love and family life with humor.,Vinayak Chandrasekaran,"Manikandan, Meetha Raghunath, Ramesh Thilak"
+532,Viduthalai Part 1,Crime Drama,A cop faces moral dilemmas while tackling a rebel group in a rural setting.,Vetrimaaran,"Soori, Vijay Sethupathi, Bhavani Sre, Gautham Menon"
+533,Irugapatru,Romantic Drama,"Three couples navigate love, trust, and relationships in modern times.",Yuvaraj Dhayalan,"Vikram Prabhu, Shraddha Srinath, Vidharth, Sri"
+534,Ayalaan,Sci-Fi,An alien crash-lands on Earth and teams up with humans to save the planet.,R Ravikumar,"Sivakarthikeyan, Rakul Preet Singh, Karunakaran"
+535,Mission: Chapter 1,Action Thriller,A father fights to save his daughter from a terrorist threat.,AL Vijay,"Arun Vijay, Amy Jackson, Nimisha Sajayan"
+536,Lover,Romantic Drama,A couple’s relationship is tested by misunderstandings and societal pressures.,Prabhu Ram Vyas,"Manikandan, Sri Gouri Priya, Kanna Ravi"
+537,Aranmanai 4,Horror Comedy,A family uncovers supernatural secrets in a haunted mansion.,Sundar C,"Sundar C, Tamannaah, Raashi Khanna, Yogi Babu"
+538,Garudan,Action Drama,A loyal friend fights to protect his village from a powerful enemy.,RS Durai Senthilkumar,"Soori, Sasikumar, Unni Mukundan, Samuthirakani"
+539,Maharaja,Action Thriller,"A barber seeks vengeance after a mysterious theft, unraveling a dark conspiracy.",Nithilan Swaminathan,"Vijay Sethupathi, Anurag Kashyap, Mamta Mohandas"
+540,Raayan,Action Drama,A simple man is drawn into a world of crime to protect his family.,Dhanush,"Dhanush, Sundeep Kishan, Dushara Vijayan, SJ Suryah"
+541,Andhagan,Thriller,A blind pianist gets entangled in a murder mystery.,Thiagarajan,"Prashanth, Simran, Priya Anand"
+542,Demonte Colony 2,Horror Thriller,Friends face supernatural horrors in a haunted apartment complex.,R Ajay Gnanamuthu,"Arulnithi, Priya Bhavani Shankar, Avantika"
+543,Vaazhai,Drama,A boy and his family navigate poverty and societal challenges in rural Tamil Nadu.,Mari Selvaraj,"Dhivya Dhuraisamy, Kalaiyarasan, Nikhila Vimal"
+544,The Greatest of All Time (GOAT),Sci-Fi Action,A retired agent is recalled to stop a terrorist plot with time-travel elements.,Venkat Prabhu,"Vijay, Prashanth, Prabhu Deva, Meenakshi Chaudhary"
+545,Lubber Pandhu,Sports Drama,Rival cricket players navigate personal and professional conflicts.,Tamizharasan Pachamuthu,"Harish Kalyan, Attakathi Dinesh, Sanjana Krishnan"
+546,Amaran,War Drama,The life of Major Mukund Varadarajan during a critical military operation in Kashmir.,Rajkumar Periasamy,"Sivakarthikeyan, Sai Pallavi, Bhuvan Arora"
+547,Mark Antony,Action Sci-Fi,"A gangster discovers a time-traveling phone, leading to chaotic events.",Adhik Ravichandran,"Vishal, SJ Suryah, Ritu Varma"
+548,Chandramukhi 2,Horror Comedy,A family faces supernatural chaos in a haunted palace.,P Vasu,"Raghava Lawrence, Kangana Ranaut, Vadivelu"
+549,Pathu Thala,Action Drama,A cop goes undercover to take down a powerful gangster.,Obeli N Krishna,"Silambarasan, Gautham Karthik, Priya Bhavani Shankar"
+550,Bagheera,Action Thriller,A vigilante fights crime in a city plagued by corruption.,Adhik Ravichandran,"Prabhu Deva, Amyra Dastur, Srikanth"
+551,Rudhran,Action,A man seeks justice for his family against a powerful criminal network.,S Kathiresan,"Raghava Lawrence, Priya Bhavani Shankar, Sarathkumar"
+552,Thiruvin Kural,Thriller,A mute man uncovers a dark conspiracy while protecting his family.,Harish Prabhu,"Arulnithi, Bharathiraja, Aathmika"
+553,Agilan,Action Thriller,A crane operator gets involved in a smuggling ring at a port.,N Kalyanakrishnan,"Jayam Ravi, Priya Bhavani Shankar, Tanya Ravichandran"
+554,Kannai Nambathey,Crime Thriller,A man’s life unravels as he’s framed for a crime he didn’t commit.,Mu Maran,"Udhayanidhi Stalin, Aathmika, Bhumika Chawla"
+555,Parundhaaguthu Oor Kuruvi,Thriller,A group of friends face danger while on a road trip.,Dhanabalan Govindaraj,"Nishanth Ramachandran, Vinod Sagar, Gayathri Iyer"
+556,Viduthalai Part 2,Crime Drama,The continuation of a cop’s battle against a rebel group and systemic corruption.,Vetrimaaran,"Vijay Sethupathi, Soori, Manju Warrier"
+557,Dada,Romantic Drama,A young couple navigates love and unexpected parenthood.,Ganesh K Babu,"Kavin, Aparna Das, Bhagyaraj"
+558,Bakkiyaraj,Comedy,A quirky tale of mistaken identities in a small town.,Karthik G Krish,"Santhanam, Lavanya Tripathi, Motta Rajendran"
+559,Yaadhum Oore Yaavarum Kelir,Drama,A musician’s journey to reconnect with his roots and identity.,Venkata Krishna Roganath,"Vijay Sethupathi, Megha Akash, Kaniha"
+560,Pichaikkaran 2,Action Drama,A businessman fights against organ trafficking after a personal tragedy.,Vijay Antony,"Vijay Antony, Kavya Thapar, Yogi Babu"
+561,Tamilarasan,Action,A man takes a hospital hostage to save his son’s life.,Babu Yogeswaran,"Vijay Antony, Suresh Gopi, Sonu Sood"
+562,Soppana Sundari,Comedy Thriller,A family’s life turns chaotic after winning a car in a raffle.,SG Charles,"Aishwarya Rajesh, Lakshmi Priyaa, Deepa Shankar"
+563,Good Luck Sakhi (Tamil Dub),Sports Drama,"A woman trains to become a sharpshooter, defying societal norms.",Nagesh Kukunoor,"Keerthy Suresh, Aadhi Pinisetty, Jagapathi Babu"
+564,Theal,Action,A man rises in the underworld while facing moral dilemmas.,Harikumar,"Prabhu Deva, Samyuktha Hegde, Easwari Rao"
+565,Bommai,Thriller,A man’s obsession with a mannequin leads to psychological horrors.,Radha Mohan,"SJ Suryah, Priya Bhavani Shankar, Chandini Tamilarasan"
+566,Run Baby Run,Thriller,A bank employee gets caught in a deadly chase after witnessing a crime.,Jiyen Krishnakumar,"RJ Balaji, Aishwarya Rajesh, Isha Talwar"
+567,Thalaikoothal,Drama,A family grapples with the ethical dilemma of an ancient euthanasia practice.,Jayaprakash Radhakrishnan,"Samuthirakani, Kathir, Vasundhara"
+568,Varayan,Comedy,A priest’s humorous journey to save his village from chaos.,Jijo Antony,"Siju Wilson, Leona Lishoy, Maniyanpilla Raju"
+569,Ghosty,Horror Comedy,A woman’s spirit seeks revenge in a comedic supernatural tale.,Kalyaan,"Kajal Aggarwal, Yogi Babu, KS Ravikumar"
+570,Kondraal Paavam,Crime Drama,"A remake of Kannada film Aa Karaala Ratri, exploring greed and betrayal.",Dayal Padmanabhan,"Varalaxmi Sarathkumar, Charlie, Easwari Rao"
+571,Ariyavan,Action,A man fights against human trafficking to save his sister.,Mithran R Jawahar,"Pranali Ghoghare, Daniel Annie Pope, Sathyan"
+572,Naan Kadavul Illai,Action Thriller,A cop battles a powerful criminal syndicate.,SA Chandrasekhar,"Samuthirakani, Inigo Prabhakaran, RJ Ananthi"
+573,Thugs,Action,A prisoner plans a daring escape to reunite with his lover.,Brinda,"Hridhu Haroon, Anaswara Rajan, Bobby Simha"
+574,Single Shankarum Smartphone Simranum,Comedy,A man’s AI-powered phone causes hilarious chaos in his life.,Vignesh Sha,"Shiva, Megha Akash, Maanasa Choudhary"
+575,Vasantha Mullai,Thriller,A couple’s romantic getaway turns into a nightmare.,Ramanan Purushothama,"Bobby Simha, Kashmira Pardeshi, Arya"
+576,Annapoorani,Drama,A woman defies societal norms to pursue her dream of becoming a chef.,L Nithilan,"Nayanthara, Jai, Sathyaraj"
+577,Pattathu Arasan,Action Drama,A family feud escalates into a battle for honor.,Sarkunam,"Atharvaa, Rajkiran, Ashika Ranganath"
+578,Naai Sekar Returns,Comedy,A man’s comedic quest to retrieve his kidnapped dog.,Suraj,"Vadivelu, Anandraj, Rao Ramesh"
+579,Kalaga Thalaivan,Action Thriller,A corporate employee uncovers a conspiracy and fights back.,Magizh Thirumeni,"Udhayanidhi Stalin, Nidhi Agerwal, Aravind Akash"
+580,Coffee with Kadhal,Romantic Comedy,Three siblings navigate love and family dynamics.,Sundar C,"Jiiva, Jai, Srikanth, Malvika Sharma"
+581,Love Today,Romantic Comedy,"A couple swaps phones for a day, leading to hilarious revelations.",Pradeep Ranganathan,"Pradeep Ranganathan, Ivana, Raveena Ravi"
+582,Sardar,Action Spy Thriller,A spy confronts a dangerous conspiracy involving his past.,PS Mithran,"Karthi, Raashi Khanna, Rajisha Vijayan"
+583,Prince,Romantic Comedy,"A teacher falls for a British woman, sparking cultural comedic chaos.",Anudeep KV,"Sivakarthikeyan, Maria Ryaboshapka, Sathyaraj"
+584,Nitham Oru Vaanam,Romantic Drama,Three interconnected stories explore love and destiny.,Ra Karthik,"Ashok Selvan, Ritu Varma, Aparna Balamurali"
+585,Kaari,Action Drama,A village youth fights to protect his community from exploitation.,Hemanth,"Sasikumar, Parvathy Arun, JD Chakravarthy"
+586,Naane Varuvean,Psychological Thriller,A man confronts his dark past and a mysterious twin.,Selvaraghavan,"Dhanush, Indhuja Ravichandran, Yogi Babu"
+587,Trigger,Action Thriller,A cop takes on a criminal syndicate to save his kidnapped son.,Sam Anton,"Atharvaa, Tanya Ravichandran, Arun Pandian"
+588,Vendhu Thanindhathu Kaadu,Action Drama,A young man’s journey from a village to the Mumbai underworld.,Gautham Menon,"Silambarasan, Siddhi Idnani, Radhika Sarathkumar"
+589,Buffoon,Comedy Drama,A man’s political ambitions lead to comedic and chaotic events.,Ashok Veerappan,"Vaibhav, Anagha, Anthakudi Ilayaraja"
+590,Aadhaar,Drama,A villager’s struggle to obtain an Aadhaar card exposes systemic issues.,Ramnath Palanikumar,"Karunas, Arun Pandian, Uma Riyaz Khan"
+591,Sinam,Action Thriller,A cop seeks justice for his wife’s murder in a small town.,GNR Kumaravelan,"Arun Vijay, Pallak Lalwani, Kaali Venkat"
+592,Captain,Action Thriller,An army officer battles a mysterious creature in a restricted forest area.,Shakti Soundar Rajan,"Arya, Aishwarya Lekshmi, Simran"
+593,Natchathiram Nagargiradhu,Romantic Drama,"A theater group explores love, caste, and societal norms.",Pa Ranjith,"Dushyanth Sridhar, Kalidas Jayaram, Kalaiyarasan"
+594,Thiruchitrambalam,Romantic Comedy,A man navigates love and family dynamics in a lighthearted tale.,Mithran R Jawahar,"Dhanush, Nithya Menen, Raashii Khanna"
+595,Jiivi 2,Thriller,A man’s life spirals into chaos as he uncovers a conspiracy.,VJ Gopinath,"Vetri, Ashwini, Karunakaran"
+596,Kombu Vatcha Singam,Action Drama,A man fights to protect his village from external threats.,Sathya Prabhas,"Sasikumar, Madonna Sebastian, Soori"
+597,Viruman,Action Drama,A young man seeks to reconnect with his estranged father.,M Muthaiah,"Karthi, Aditi Shankar, Rajkiran, Prakash Raj"
+598,Sembi,Drama,A tribal girl and her grandmother seek justice after a traumatic event.,Prabu Solomon,"Ashwin Kumar, Kovai Sarala, Thambi Ramaiah"
+599,Adrishyam,Thriller,"A man searches for his missing wife, uncovering dark secrets.",Zac Harriss,"Jithan Ramesh, Narain, Sangeetha"
+600,Thanne Vandi,Romantic Comedy,A quirky love story set in a small town with comedic twists.,Manika Vidya,"Umapathy Ramaiah, Bala Saravanan, Sanskruti Patel"
+601,Pothanur Thabal Nilayam,Comedy Thriller,A post office worker uncovers a scam involving a treasure hunt.,Praveen,"Praveen, Anjali Nair, Venkat Sundar"
+602,Kaalangalil Aval Vasantham,Romantic Drama,A young man’s love story takes unexpected turns.,Raghav Mirdath,"Kaushik Ram, Anjali Nair, RJ Ananthi"
+603,Methagu 2,Biographical Drama,A revolutionary’s continued fight for justice.,Kitturetnam Sri Balan,"Lizzie Antony, Kutti Manni, Eeshwar"
+604,Yaanai Mugathaan,Fantasy Drama,A man encounters a mystical elephant that changes his life.,Rejishh Midhila,"Yogi Babu, Ramesh Thilak, Urvashi"
+605,Kaarotiyin Kaadhali,Romantic Drama,A young couple’s love story faces societal obstacles.,Ramnath Palanikumar,"Nikhil, Sri Priyanka, Yogi Babu"
+606,Anbanavan Asaradhavan Adangadhavan,Action Comedy,A man with multiple personas navigates love and crime.,Adhik Ravichandran,"Silambarasan, Shriya Saran, Tamannaah"
+607,Thiruttu Payale 2,Thriller,A cop investigates a blackmail ring targeting married men.,Susi Ganeshan,"Bobby Simha, Prasanna, Amala Paul"
+608,Richie,Crime Drama,A journalist uncovers a crime syndicate in a coastal town.,Gautham Ramachandran,"Nivin Pauly, Natty Nataraj, Shraddha Srinath"
+609,Mersal,Action Thriller,A doctor and a magician take on corruption in the medical industry.,Atlee,"Vijay, Samantha, Kajal Aggarwal, Nithya Menen"
+610,Saani Kaayidham,Action Thriller,A woman seeks revenge against those who destroyed her family.,Arun Matheswaran,"Keerthy Suresh, Selvaraghavan, Lizzie Antony"
+611,Enna Solla Pogirai,Romantic Comedy,Three friends navigate love and relationships with comedic twists.,A Hariharan,"Ashwin Kumar, Teju Ashwini, Avantika Mishra"
+612,Carbon,Thriller,A man’s quest for treasure leads to unexpected dangers.,Srinivas R,"Vishnu Vishal, Kajal Aggarwal, Srushti Dange"
+613,Web,Psychological Thriller,"Four girls are kidnapped after a party, leading to a tense investigation.",N Haroon,"Natty Subramaniam, Shilpa Manjunath, Rajendran"
+614,Murmur,Horror,A chilling tale of supernatural events haunting a small town.,Hemnath Narayanan,"Richie Kapoor, Devaraj Arumugam, Yuvika Rajendran"
+615,Baby and Baby,Comedy Drama,"Two couples accidentally switch babies, leading to comedic chaos.",S Sakthivel,"Jai, Sathyaraj, Yogi Babu, KS Ravikumar"
+616,Vaanil Thedinen,Romantic Drama,"A series exploring love, loss, and healing in modern relationships.",Alvin Deva,"Kishaan CV, Madhan Kumar, Pooja Soundar"
+617,Pisasu 2,Horror,A woman faces supernatural horrors after a tragic event.,Mysskin,"Andrea Jeremiah, Vijay Sethupathi, Rajkumar Pitchumani"
+618,Partner,Comedy,Two friends get entangled in a hilarious scam.,Manoj Damodharan,"Aadhi Pinisetty, Hansika Motwani, Yogi Babu"
+619,Regina,Thriller,A woman seeks justice after a personal tragedy.,Domin Dsilva,"Sunaina, Ananth Nag, Sai Ravi"
+620,Aneethi,Action Drama,A man’s quest for justice leads to a violent confrontation.,Vasantha Balan,"Arjun Das, Dushara Vijayan, Kalaiyarasan"
+621,Kick,Action,A young man takes on a criminal syndicate to save his love.,Prashant Raj,"Santhanam, Tanya Hope, Ragini Dwivedi"
+622,Theera Kaadhal,Romantic Drama,"Two former lovers reunite, sparking emotional chaos.",Rohin Venkatesan,"Jai, Aishwarya Rajesh, Sshivada"
+623,Marakkuma Nenjam,Romantic Comedy,A school reunion brings back old flames and memories.,Yoagandran,"Rakshith, Malina, Dheena"
+624,Karungaapiyam,Horror,A woman uncovers dark secrets in a haunted village.,D Karthikeyan,"Kajal Aggarwal, Regina Cassandra, Janani Iyer"
+625,Kazhuvethi Moorkkan,Action Drama,A village youth fights against caste oppression.,SY Gowthamaraj,"Arulnithi, Dushara Vijayan, Santhosh Prathap"
+626,Farhana,Thriller,A woman’s new job leads to dangerous consequences.,Nelson Venkatesan,"Aishwarya Rajesh, Selvaraghavan, Jithan Ramesh"
+627,Erumbu,Drama,A family faces financial struggles and emotional bonds.,Suresh G,"Charlie, Monica Siva, Shakthi Rithvik"
+628,Burqa,Drama,A woman navigates societal constraints and personal freedom.,Sarjun KM,"Kalaiyarasan, Mirnaa Menon, Vinoth Sagar"
+629,Yaathisai,Historical Drama,A warrior tribe fights against a powerful kingdom in ancient times.,Dharani Rasendran,"Shakthi Mithran, Seyon, Rajalakshmi"
+630,Asvins,Horror,A group of YouTubers face supernatural horrors in a haunted mansion.,Tarun Teja,"Vasantha Krishnan, Vimala Raman, Muralidaran"
+631,Maamannan,Political Drama,A politician’s son fights against caste-based oppression.,Mari Selvaraj,"Vadivelu, Udhayanidhi Stalin, Fahadh Faasil, Keerthy Suresh"
+632,Bumper,Comedy,A man’s lottery win leads to unexpected comedic chaos.,M Selvakumar,"Vetri, Shivani Narayanan, Hareesh Peradi"
+633,Thandatti,Comedy Drama,A village cop navigates love and duty with humor.,Ram Sanganatham,"Pasupathy, Rohini, Ammu Abhirami"
+634,D3,Thriller,A woman uncovers a conspiracy after her husband’s mysterious death.,Balaaji,"Prajin, Vidya Pradeep, Charlie"
+635,Deiva Machan,Fantasy Comedy,"A man receives divine messages, leading to comedic adventures.",Martyn Nirmal Kumar,"Vimal, Anitha Sampath, Balaji Sakthivel"
+636,Kundakka Mandakka,Comedy,A village youth’s misadventures lead to hilarious situations.,Vignesh Karthick,"Yogi Babu, Priyanka Sharma, Vinothini"
+637,Pathirakaalam,Drama,A family road trip reveals deep emotional truths.,Priyanandanan,"Shaji, Indrans, Anu Sithara"
+638,Sathiya Sodhanai,Thriller,A man’s quest for truth uncovers a web of deceit.,Suresh Sangaiah,"Prem Kumar, Swayam Siddha, Lakshmi Priyaa"
+639,Uruvam,Horror,A family faces supernatural terrors in their new home.,Arooran,"Sivam, Jeyan, Monica"
+640,Thuritham,Drama,A man’s journey to reconnect with his estranged family.,V Sabareesh,"Jegan, Eden Kuriakose, Aishwarya"
+641,Sync,Thriller,A tech worker uncovers a dangerous corporate conspiracy.,Vikas Anand Sridharan,"Kishen Das, Monica Chinnakotla, Naveen George"
+642,Raakayoor,Action,A warrior fights to protect his village from invaders.,Vignesh Karthick,"Santhosh Prathap, Anupama Kumar, Rohit Menon"
+643,Unnaal Ennaal,Romantic Comedy,A quirky love story unfolds amidst misunderstandings.,Karthik Subramanian,"Siva, Priyanka, Vinoth Kumar"
+644,Malaikottai Vaaliban (Tamil Dub),Period Action,A warrior’s journey through a mythical land filled with challenges.,Lijo Jose Pellissery,"Mohanlal, Sonalee Kulkarni, Hareesh Peradi"
+645,Ayalvaasi,Comedy,A man’s comedic attempts to impress his in-laws go awry.,Irshad Parari,"Soubin Shahir, Binu Pappu, Nikhila Vimal"
+646,Kida,Drama,A boy and his grandfather navigate poverty and societal challenges.,Ra Venkat,"Poo Ramu, Kaali Venkat, Deepan"
+647,Modern Love Chennai,Anthology Romance,Six stories explore love in modern Chennai.,Various Directors,"Ashok Selvan, Wamiqa Gabbi, Ritu Varma"
+648,Pareshan (Tamil Dub),Comedy,A young man’s misadventures in a rural setting.,Rupak Ronaldson,"Thiruveer, Pavani Karanam, Bunny Abhiran"
+649,Rayar Parambarai,Comedy,A family’s inheritance dispute leads to comedic chaos.,Ram,"Krishna, Saranya Ponvannan, Anju Kurian"
+650,Let’s Get Married,Romantic Comedy,A couple’s wedding plans face hilarious obstacles.,Ramesh Tamilmani,"Harish Kalyan, Ivana, Nadia Moidu"
+651,Parking,Thriller,A parking dispute escalates into a dangerous confrontation.,Ramkumar Balakrishnan,"Harish Kalyan, MS Bhaskar, Indhuja Ravichandran"
+652,Annapurna Photo Studio (Tamil Dub),Comedy Thriller,A photographer gets entangled in a mysterious case.,Chendu Muddineni,"Chaitanya Rao, Lavanya, Mihiraam"
+653,Chennai Story,Romantic Drama,A cross-cultural love story unfolds in Chennai.,BA Raju,"Shruti Haasan, Viveik Kalra, Samyuktha Hegde"
+654,80s Buildup,Comedy,A man’s nostalgic journey through the 80s leads to comedic chaos.,Kalyaan,"Santhanam, Radhika Preeti, KS Ravikumar"
+655,Conjuring Kannappan,Horror Comedy,A man accidentally unleashes a supernatural entity.,Selvin Raj Xavier,"Sathish, Regina Cassandra, Nassar"
+656,Journey of Love 18+ (Tamil Dub),Romantic Comedy,A couple’s road trip turns into a comedic adventure.,Arun D Jose,"Naslen, Mathew Thomas, Meenakshi"
+657,Shot Boot Three,Family Drama,A group of kids embark on an adventure to save a pet.,Arun Vaidyanathan,"Sneha, Venkat, Kailash Heet"
+658,Vivekanandan Viralaanu (Tamil Dub),Comedy Drama,A man’s quirky life takes unexpected turns.,Kamal,"Shine Tom Chacko, Swasika, Grace Antony"
+659,Ape School,Comedy,A teacher’s misadventures in a chaotic school.,Santhosh Venky,"Santhanam, Yogi Babu, Motta Rajendran"
+660,Vithaikkaaran,Comedy Thriller,A conman’s heist plan goes hilariously wrong.,Venkat Prabhu,"Sathish, Simran, Anchal Singh"
+661,Operation Valentine (Tamil Dub),Action,A pilot undertakes a daring mission during a crisis.,Shakti Pratap Singh,"Varun Tej, Manushi Chhillar, Paresh Pahuja"
+662,Ambajipeta Marriage Band (Tamil Dub),Drama,A wedding band leader navigates love and caste issues.,Dushyanth Katikaneni,"Suhas, Shivani Nagaram, Saranya Pradeep"
+663,Eagle (Tamil Dub),Action Thriller,A mercenary takes on a dangerous mission.,Karthik Gattamneni,"Ravi Teja, Anupama Parameswaran, Kavya Thapar"
+664,Lal Salaam,Sports Drama,A cricketer’s rivalry reflects deeper social tensions.,Aishwarya Rajinikanth,"Vishnu Vishal, Vikranth, Rajinikanth"
+665,Siren,Thriller,An ex-convict seeks redemption while uncovering a conspiracy.,Antony Bhagyaraj,"Jayam Ravi, Keerthy Suresh, Anupama Parameswaran"
+666,Madame Web (Tamil Dub),Sci-Fi Thriller,A woman discovers her clairvoyant powers to change destinies.,SJ Clarkson,"Dakota Johnson, Sydney Sweeney, Isabela Merced"
+667,Blue Star,Sports Drama,Two rival cricket teams navigate caste and personal conflicts.,S Jayakumar,"Ashok Selvan, Shanthanu Bhagyaraj, Keerthi Pandian"
+668,Singapore Saloon,Comedy Drama,A hairstylist chases his dream of opening a salon.,Gokul,"RJ Balaji, Meenakshi Chaudhary, Sathyaraj"
+669,Malaikottai Vaaliban (Tamil Dub),Period Action,A warrior’s mythical journey through challenges.,Lijo Jose Pellissery,"Mohanlal, Sonalee Kulkarni, Hareesh Peradi"
+670,Thookudurai,Comedy,A family’s treasure hunt leads to hilarious chaos.,Dennis Manjunath,"Yogi Babu, Ineya, Mahesh"
+671,Khichdi 2 (Tamil Dub),Comedy,A family’s chaotic mission to save a kingdom.,Aatish Kapadia,"Supriya Pathak, Rajeev Mehta, Anang Desai"
+672,Jama,Comedy,A village youth’s comedic rise to fame.,Pari Elavazhagan,"Pari Elavazhagan, Ammu Abhirami, Chetan"
+673,Vadakkupatti Ramasamy,Comedy,A conman’s schemes lead to unexpected consequences.,Karthik Yogi,"Santhanam, Megha Akash, Nizhalgal Ravi"
+674,Byri,Drama,A pigeon racer faces challenges in his personal and professional life.,John Glady,"Syed Majeed, Vinithra Menon, Viji Sekar"
+675,Merry Christmas,Thriller,A chance encounter on Christmas Eve leads to a dark mystery.,Sriram Raghavan,"Vijay Sethupathi, Katrina Kaif, Radhika Apte"
+676,Lucky Baskhar,Crime Drama,A banker’s rise to wealth hides a dangerous secret.,Venky Atluri,"Dulquer Salmaan, Meenakshi Chaudhary, Aishwarya Lekshmi"
+677,Mission,Action,A covert operation unravels a global conspiracy.,AL Vijay,"Arun Vijay, Amy Jackson, Nimisha Sajayan"
+678,Pogum,Thriller,A man’s quest for truth leads to dangerous revelations.,Micheal K Raja,"Aadhi Pinisetty, Anjali, Viddharth"
+679,Kishkindha Kaandam (Tamil Dub),Thriller,A couple’s serene life is disrupted by mysterious events.,Dinjith Ayyathan,"Asif Ali, Aparna Balamurali, Vijayaraghavan"
+680,Satyam Sundaram (Tamil Dub),Drama,A man reconnects with his past in a nostalgic journey.,C Prem Kumar,"Karthi, Arvind Swamy, Indumathy Manikandan"
+681,Anandhapuram Diaries (Tamil Dub),Drama,A woman’s journey through love and self-discovery.,Jaya Jose Raj,"Meera Jasmine, Srikanth, Renji Panicker"
+682,Mathimaran,Drama,A man with dwarfism fights societal prejudice.,Mantra Veerapandian,"Venkat Senguttuvan, Ivana, MS Bhaskar"
+683,Athomugam,Thriller,A man uncovers a conspiracy in his small town.,Sunil Dev,"SP Siddharth, Anjalidevi, Aaron"
+684,Chennai City Gangsters,Action Comedy,A group of friends get entangled in a comedic crime caper.,Arun Matheswaran,"Vishnu Vishal, Vikranth, Sunaina"
+685,Idiyappam,Comedy,A chef’s culinary dreams lead to hilarious mishaps.,Sree Saran,"Santhosh Prathap, Gayathri, Vinoth Kishan"
+686,Por,Action,Rival college students escalate tensions into a violent conflict.,Bejoy Nambiar,"Arjun Das, Kalidas Jayaram, TJ Bhanu"
+687,Aalakaalam,Drama,A family navigates societal changes and personal struggles.,Jithin Raj,"Easwari Rao, Chandini Tamilarasan, Jaya Krishnamoorthy"
+688,Thalaimai Seyalagam,Political Thriller,A political conspiracy unfolds in a small town.,Vasanthabalan,"Sriya Reddy, Kishore, Kani Kusruti"
+689,Kottukkaali,Drama,"A woman defies her family’s marriage plans, sparking conflict.",PS Vinothraj,"Soori, Anna Ben, Thangadurai"
+690,Nandhan,Drama,A tribal man fights for his community’s rights.,Era Saravanan,"Sasikumar, Vidharth, Gauthami VJ"
+691,Black,Thriller,A man’s investigation into a murder reveals dark secrets.,KG Balasubramani,"Jiiva, Priya Bhavani Shankar, Vinoth Kishan"
+692,Raghu Thatha,Comedy Drama,A woman’s rebellion against societal norms with humor.,Suman Kumar,"Keerthy Suresh, MS Bhaskar, Devadarshini"
+693,Kadaisi Ulaga Por,War Drama,A dystopian tale of survival and rebellion.,Hiphop Tamizha,"Hiphop Tamizha, Anagha, Harish Peradi"
+694,Meiyazhagan,Drama,Two brothers reconnect after years of estrangement.,C Prem Kumar,"Karthi, Arvind Swamy, Sri Divya"
+695,Petta Rap,Musical Comedy,A rapper’s journey to fame with comedic twists.,SJ Sinu,"Prabhu Deva, Vedhika, Vivek Prasanna"
+696,Hindustani 2,Action Thriller,A vigilante fights corruption in a futuristic India.,Shankar,"Kamal Haasan, Kajal Aggarwal, Siddharth"
+697,Pavithra 1994,Action,A young man’s quest for justice in a crime-ridden city.,Kishore,"Rohit, Nandini, Vinod Kishan"
+698,Lal Salaam,Sports Drama,A cricketer’s rivalry reflects deeper social tensions.,Aishwarya Rajinikanth,"Vishnu Vishal, Vikranth, Rajinikanth"
+699,Vettaiyan,Action,A cop takes on a criminal empire with unorthodox methods.,TJ Gnanavel,"Rajinikanth, Fahadh Faasil, Rana Daggubati, Anirudh"
+700,Kanguva,Historical Action,A warrior’s epic battle against a tyrannical ruler.,Siva,"Suriya, Disha Patani, Bobby Deol, Yogi Babu"
+701,Indian 2,Action Thriller,A freedom fighter returns to combat corruption.,Shankar,"Kamal Haasan, Siddharth, Kajal Aggarwal"
+702,Thangalaan,Historical Action,A tribal leader fights against colonial oppression.,Pa Ranjith,"Vikram, Parvathy Thiruvothu, Malavika Mohanan"
+703,Boat,Thriller,A group of refugees face survival challenges on a perilous boat journey.,Chimbu Deven,"Yogi Babu, Gouri Kishan, MS Bhaskar"
+704,Democracy,Political Drama,A journalist uncovers a political scandal.,Vinoth Kumar,"Santhanam, Mu Ramaswamy, Thangadurai"
+705,Oru Nodi,Crime Thriller,A cop investigates a murder case with unexpected twists.,B Manivarman,"Thaman Kumar, Vimala Raman, Srushti Dange"
+706,Good Bad Ugly,Action Thriller,A vigilante cop takes on a criminal syndicate with unorthodox methods.,Magizh Thirumeni,"Ajith Kumar, Trisha Krishnan, Arjun Das, Prabhu Ganesan, Simran"
+707,Retro,Romantic Drama,"Two lovers separated by circumstances reunite through a tragic murder, exploring love and fate.",Karthik Subbaraj,"Suriya, Pooja Hegde, Jayaram, Joju George, Nassar"
+708,Vidaamuyarchi,Action Thriller,"A man’s relentless quest for vengeance shapes his life, battling a dangerous foe.",Magizh Thirumeni,"Ajith Kumar, Trisha Krishnan, Arjun Sarja, Regina Cassandra, Arav"
+709,Thug Life,Action Drama,"A gangster seeks a peaceful life after vowing to his wife, but his past pulls him back.",Mani Ratnam,"Kamal Haasan, Jayam Ravi, Trisha Krishnan, Dulquer Salmaan, Abhirami"
+710,Kadhalikka Neramillai,Romantic Comedy,A quirky love story unfolds amidst misunderstandings and comedic chaos.,Pradeep Ranganathan,"Pradeep Ranganathan, SJ Suryah, Krithi Shetty, Yogi Babu"
+711,Vanangaan,Drama,"A folk singer from the Paanan caste escapes slavery and discovers an ancient mansion, altering his destiny.",Bala,"Arun Vijay, Roshni Prakash, Samuthirakani, Mysskin"
+712,Madha Gaja Raja,Action Comedy,A man’s comedic rise to power in a chaotic village setting.,Sundar C,"Vishal, Anjali, Varalaxmi Sarathkumar, Santhanam"
+713,Veera Dheera Sooran: Part 2,Action Drama,A provision store owner gets entangled in a dangerous crime network with a mysterious mission.,SU Arun Kumar,"Vikram, SJ Suryah, Dushara Vijayan, Suraj Venjaramoodu"
+714,Kubera,Drama,"A disillusioned chartered accountant enlists beggars to impersonate businessmen, leading to chaos.",Sekhar Kammula,"Dhanush, Rashmika Mandanna, Nagarjuna Akkineni, Jim Sarbh"
+715,Dragon,Comedy Drama,A coming-of-age tale of a young man navigating life’s challenges with humor.,Ashwath Marimuthu,"Sasikumar, Simran, Yogi Babu, MS Bhaskar, Ramesh Thilak"
+716,Ace,Action,A high-energy commercial entertainer with uneven tones but strong action sequences.,Lokesh Kanagaraj,"Aamir Khan, Rajinikanth, Nagarjuna Akkineni"
+717,Maargan,Crime Thriller,A competent crime thriller following a detective’s pursuit of justice in a murder case.,Nanda Periyasamy,"Jaseena, Ananya, Bharathiraja"
+718,Sabdham,Horror Thriller,A group faces supernatural horrors after a mysterious event.,Arivazhagan Venkatachalam,"Aadhi Pinisetty, Lakshmi Menon, Simran, Laila, Redin Kingsley"
+719,Nilavuku Enmel Ennadi Kobam,Comedy Drama,"A mix of comedy, romance, and drama centered on youthful aspirations.",Dhanush,"Anikha Surendran, Priya Prakash Varrier, Mathew Thomas, Venkatesh Menon"
+720,Ramam Raghavam,Drama Thriller,"A son’s betrayal of his honest father, a government official, leads to deceit and redemption.",Dhanraj Koranani,"Samuthirakani, Dhanraj, Harish Uthaman, Satya"
+721,Fire 2025,Romantic Crime Thriller,"An inspector investigates the mysterious disappearance of a physiotherapist, uncovering secrets.",JSK Satish Kumar,"Karthi, Krithi Shetty, Sathyaraj, Anandaraj, Rajkiran"
+722,Oho Enthan Baby,Romantic Comedy,A lighthearted rom-com about a young couple’s quirky journey.,Sathish Paramasivam,"Sathish, Priyanka Sharma, Yogi Babu, Redin Kingsley"
+723,Desingu Raja 2,Action Comedy,A sequel filled with swagger and comedic energy in a rural setting.,Ezhil,"Vimal, Soori, Anjali, Motta Rajendran"
+724,Mrs and Mr,Comedy Drama,A newlywed couple navigates quirky challenges and domestic drama.,Vignesh Srikanth,"Vijay Antony, Mahima Nambiar, Yogi Babu, VTV Ganesh"
+725,Maayakoothu,Fantasy Thriller,A tale of myth and mystery with supernatural elements.,Arjunan Jr.,"Yogi Babu, Koushik Mahata, Vikkals Vikram, Nadia Moidu"
+726,Thottram,Thriller,A gripping thriller following a trail of suspense and danger.,K Thirugnanam,"Dushyanth Jayaprakash, Radha Ravi, Charan Raj, Maheshwari Chanakyan"
+727,Superman (Tamil Dub),Action,A superhero battles cosmic threats to save Earth.,James Gunn,"David Corenswet, Rachel Brosnahan, Nicholas Hoult, Isabel Merced"
+728,Game Changer (Tamil Dub),Political Action,A political reformer fights corruption in a high-stakes battle.,Shankar,"Ram Charan, Kiara Advani, Anjali, SJ Suryah"
+729,Madraskaaran,Action Drama,A young man rises against societal injustices in Chennai.,Vaali Mohan Das,"Sasikumar, Lijomol Jose, Malavika Avinash, Ramesh Khanna"
+730,Nesippaya,Drama,A man’s emotional journey to reconnect with his family.,Vishnuvardhan,"Siddharth, R Sarathkumar, Devayani, Yogi Babu"
+731,Tharunam,Romantic Drama,A CRPF officer and an entrepreneur’s chance encounter leads to love and challenges.,S Prem Anand,"Naveen Chandra, Abhirami, Dileepan, Aadukalam Naren"
+732,Good Day,Drama,A drunk man’s journey toward redemption with dark humor.,Rajeshwar Kaliswamy,"Prasanna Balachandran, Jensan Diwakar, Kovai Gurumoorthy"
+733,Phoenix,Action,A young lead establishes his action credentials in a commercial entertainer.,Pa Ranjith,"Vaibhav, Sunil, Bala Saravanan, Redin Kingsley"
+734,Paranthu Po,Family Drama,A father and child navigate life’s small adventures with emotional depth.,Abishan Jeevinth,"Yogi Babu, MS Bhaskar, Kamalesh"
+735,DNA,Crime Action,A cop investigates a serial killing case involving young girls and a burning drug.,Nelson Venkatesan,"Atharvaa Murali, Nimisha Sajayan, RJ Ramesh Thilak"
+736,Aghathiyaa,Fantasy Thriller,A climactic showdown with motion-capture animation explores fantasy aspirations.,Lokesh Ajls,"Naveen Chandra, Abhirami, Reyaa"
+737,Train,Thriller,A man uncovers a conspiracy on a train journey.,Mysskin,"Vijay Sethupathi, Rukmini Vasanth, Yogi Babu, Divya Pillai"
+738,Idly Kadai,Drama,A man’s simple life running an idly shop leads to unexpected challenges.,Sundar C,"Dhanush, Shalini Pandey, Prakash Raj, Sathyaraj"
+739,Paarasiga Raja,Action,A warrior rises to protect his kingdom from invaders.,Sundar C,"Suriya, Andrea Jeremiah, Koushik Mahata, Ameer Sultan"
+740,Bun Butter Jam,Comedy,A comedic tale of culinary mishaps in a small town.,Vignesh Karthick,"Yogi Babu, Vedhika, Inigo Prabhakaran, Chandini Tamilarasan"
+741,Yaadhum Ariyaan,Drama,A man’s quest for identity reconnects him with his roots.,Nalan Kumarasamy,"Vijay Sethupathi, Nithya Menen, Yogi Babu, Roshini Haripriyan"
+742,Achamillai Achamillai,Political Drama,A politician fights against systemic corruption.,H Vinoth,"Arun Vijay, Ashok Selvan, Rajkiran, Brigida Saga"
+743,Seetha Payana,Romantic Drama,A couple’s love story faces societal and familial obstacles.,Vetri Maaran,"Sivakarthikeyan, Sai Pallavi, Bhuvan Arora"
+744,Kallapart,Action Thriller,A cop takes on a smuggling ring in a port city.,Karthik G Krish,"Arvind Swami, Regina Cassandra, Anjali"
+745,The Verdict,Crime Drama,A courtroom drama shifts to human duplicity and justice.,RJ Balaji,"Trisha Krishnan, Suriya, Yogi Babu"
+746,Tourist Family,Comedy Drama,A family’s vacation turns into a comedic adventure.,Venkata Krishna Roganath,"Jiiva, Arjun Sarja, Raashii Khanna, Yogi Babu"
+747,DD Next Level,Action,A vigilante’s mission to clean up a crime-ridden city.,K Thirugnanam,"Shaam, Nizhalgal Ravi, Aroul D Shankar, Jeeva Ravi"
+748,Gangers,Action,A gang leader adopts a young boy saved during a gang war.,P Aarumugakumar,"Vijay Sethupathi, Rukmini Vasanth, Yogi Babu"
+749,Bottle Radha,Drama,An alcoholic mason’s journey to recovery after rehab.,Pa Ranjith,"Guru Somasundaram, Sanchana Natarajan, John Vijay"
+750,MGR Magan 2,Comedy Drama,A farmer’s son navigates village politics with humor.,Ponram,"Sasikumar, Sathyaraj, Samuthirakani, Saranya Ponvannan"
+751,Vaa Vaathiyaar,Action Drama,A teacher fights against corruption in a rural school.,Nalan Kumarasamy,"Karthi, Krithi Shetty, Sathyaraj, Anandaraj"
+752,Empuraan (Tamil Dub),Action Thriller,A crime lord’s empire faces new threats.,Prithviraj Sukumaran,"Mohanlal, Prithviraj Sukumaran, Manju Warrier"
+753,SK23,Action,A young man’s rise in a crime syndicate.,AR Murugadoss,"Sivakarthikeyan, Rukmini Vasanth, Biju Menon"
+754,Suriya 44,Action Drama,A man confronts his past to protect his family.,Karthik Subbaraj,"Suriya, Pooja Hegde, Jayaram, Joju George"
+755,Sardar 2,Action Spy Thriller,A spy’s mission to thwart a global conspiracy.,PS Mithran,"Karthi, Raashi Khanna, Rajisha Vijayan"
+756,Thalapathy 69,Action Drama,A man’s final battle before entering politics.,H Vinoth,"Vijay, Pooja Hegde, Bobby Deol, Gautham Menon"
+757,Coolie,Action Thriller,A retired cop takes on a smuggling empire.,Lokesh Kanagaraj,"Rajinikanth, Nagarjuna Akkineni, Soubin Shahir"
+758,Maaya One (Tamil Dub),Sci-Fi Action,A scientist battles alien forces to save humanity.,CV Kumar,"Sundeep Kishan, Lavanya Tripathi, Akanksha Puri"
+759,Freedom,Historical Drama,A revolutionary’s fight against colonial oppression.,Mani Ratnam,"Kamal Haasan, Jayam Ravi, Dulquer Salmaan, Trisha Krishnan"
+760,Mr Zoo Keeper,Comedy,A zookeeper’s comedic misadventures with animals.,J Senthil Kumar,"Vijay Sethupathi, Rukmini Vasanth, Yogi Babu"
+761,Narivetta,Political Drama,A politician uncovers a conspiracy threatening his career.,K Thirugnanam,"Tovino Thomas, Losliya Mariyanesan, Nanditha Sreekumar"
+762,Paramasivan Fathima,Drama,A woman’s journey of faith and redemption.,S Prem Anand,"Soori, Aishwarya Lekshmi, Rajkiran, Swasika"
+763,Gajarama,Action,A village youth fights against local goons.,Arjunan Jr.,"Yogi Babu, Koushik Mahata, Harish Kalyan, Ivana"
+764,Jagamerigina Satyam,Drama,A man’s quest for truth in a corrupt society.,K Thirugnanam,"Dushyanth Jayaprakash, Radha Ravi, Charan Raj"
+765,Thamizh Desam,Action Drama,A patriotic youth fights for his community’s rights.,Vignesh Raja,"Ashok Selvan, Sarathkumar, Nikhila Vimal"
+766,Kaatu Pura,Drama,A tribal family’s struggle against deforestation.,Mari Selvaraj,"Kalaiyarasan, Dhivya Dhuraisamy, Nikhila Vimal"
+767,Pudhusa Naan Poranthen,Romantic Comedy,A man’s comedic journey to win his love.,Venkat Prabhu,"Ashok Selvan, Samyuktha Hegde, Riya Suman"
+768,Vetri Vizha 2,Action,"A sequel to the classic, a cop hunts a criminal mastermind.",Prabhu Deva,"Prabhu Deva, Meena, Yogi Babu, Karunas"
+769,Anbulla Appa,Family Drama,A father and son reconnect after years of estrangement.,Sundar C,"Suriya, Andrea Jeremiah, Koushik Mahata, Ameer Sultan"
+770,Kanne Kalaimaane 2,Romantic Drama,A couple navigates societal pressures in a rural setting.,Seenu Ramasamy,"Udhayanidhi Stalin, Aathmika, Yogi Babu"
+771,Naanum Rowdy Dhaan 2,Action Comedy,A rowdy’s comedic journey to reform.,Vignesh Shivan,"Vijay Sethupathi, Nayanthara, Samantha"
+772,Pudhupettai 2,Action Drama,A gangster’s rise in the Chennai underworld.,Selvaraghavan,"Dhanush, Sneha, Yogi Babu"
+773,Sivaji 3D (Re-release),Action Drama,A re-release of the classic tale of a man fighting corruption.,Shankar,"Rajinikanth, Shriya Saran, Vivek, Suman"
+774,Thoothukudi Thalapathy,Action,A local leader fights against injustice in Thoothukudi.,Ezhil,"Vijay Antony, Meera Jasmine, Yogi Babu"
+775,Kuttram 23 Part 2,Crime Thriller,A cop continues his battle against a crime syndicate.,Arivazhagan,"Arun Vijay, Mahima Nambiar, Vamsi Krishna"
+776,Ennai Vittu Pogaathe,Romantic Drama,A man deals with heartbreak and personal growth.,Gautham Menon,"Sivakarthikeyan, Sai Pallavi, Bhuvan Arora"
+777,Pisasu 3,Horror,A supernatural entity haunts a family.,Mysskin,"Andrea Jeremiah, Vijay Sethupathi, Rajkumar Pitchumani"
+778,Kaadhal Konjam,Romantic Comedy,A quirky tale of young love and misunderstandings.,Anudeep KV,"Harish Kalyan, Ivana, Yogi Babu"
+779,Thiruma,Action,A man protects his village from a mining mafia.,Hari,"Arun Vijay, Priya Bhavani Shankar, Samuthirakani"
+780,Vaadi Vaasal,Historical Action,A warrior’s battle in ancient Tamil Nadu.,Vetri Maaran,"Suriya, Disha Patani, Yogi Babu"
+781,Aaranya Kaandam 2,Crime Thriller,A sequel exploring Chennai’s criminal underworld.,Thiagarajan Kumararaja,"Yogi Babu, Guru Somasundaram, Sampath Raj"
+782,Karthikeyan,Action Drama,A man’s fight against corruption in a small town.,Muthaiah,"Sasikumar, Anjali, Samuthirakani"
+783,Oru Kalluriyin Kadhai,Romantic Drama,College students navigate love and ambition.,Vignesh Karthick,"Santhosh Prathap, Gayathri, Vinoth Kishan"
+784,Mouna Raagam 2,Romantic Drama,A modern take on a classic love story.,Mani Ratnam,"Karthi, Aditi Rao Hydari, Yogi Babu"
+785,Thalaimai Seyalagam 2,Political Thriller,A politician’s fight against corruption continues.,Vasanthabalan,"Sriya Reddy, Kishore, Kani Kusruti"
+786,Raaja Paarvai,Drama,A visually impaired man’s journey of resilience.,Vignesh Raja,"Ashok Selvan, Nikhila Vimal, Yogi Babu"
+787,Koodal Nagar,Action Drama,A man’s rise against local goons in Madurai.,Seenu Ramasamy,"Sasikumar, Varalaxmi Sarathkumar, Soori"
+788,Naan Rudhran,Action,A man seeks justice for his family’s murder.,S Kathiresan,"Raghava Lawrence, Priya Bhavani Shankar, Sarathkumar"
+789,Thoongavanam 2,Action Thriller,A cop’s mission to stop a drug cartel.,Rajesh M Selva,"Kamal Haasan, Trisha Krishnan, Prakash Raj"
